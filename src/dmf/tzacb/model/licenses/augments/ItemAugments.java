@@ -22,7 +22,7 @@ public class ItemAugments {
 		itauLicenses[7]   = new License("Remedy Lore 2",  30, LicenseType.Augment, "Remedies remove Petrify, Confuse, and Oil.");
 		itauLicenses[8]   = new License("Remedy Lore 3",  70, LicenseType.Augment, "Remedies remove Stop, Doom, and Disease.");
 		itauLicenses[9]   = new License("Phoenix Lore 1", 30, LicenseType.Augment, "Increases Phoenix Down effect.");
-		itauLicenses[10]  = new License("Phoenix Lore 2", 40, LicenseType.Augment, "Increases Phoenix Down effect.");
+		itauLicenses[10]  = new License("Phoenix Lore 2", 50, LicenseType.Augment, "Increases Phoenix Down effect.");
 		itauLicenses[11]  = new License("Phoenix Lore 3", 90, LicenseType.Augment, "Increases Phoenix Down effect.");
 	}
 	
