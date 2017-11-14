@@ -1,5 +1,6 @@
 package dmf.tzacb.logic.jobs;
 
+import dmf.tzacb.logic.main.PlayerCharacter;
 import dmf.tzacb.model.licenses.LicenseBoard;
 import dmf.tzacb.model.licenses.augments.BattleAugments;
 import dmf.tzacb.model.licenses.augments.HealthAugments;

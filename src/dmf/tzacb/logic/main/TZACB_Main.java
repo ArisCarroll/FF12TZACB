@@ -3,7 +3,6 @@ package dmf.tzacb.logic.main;
 import javax.swing.JFrame;
 
 import dmf.tzacb.gui.MainGui;
-import dmf.tzacb.logic.jobs.PlayerCharacter;
 import dmf.tzacb.model.licenses.augments.BattleAugments;
 import dmf.tzacb.model.licenses.augments.HealthAugments;
 import dmf.tzacb.model.licenses.augments.ItemAugments;

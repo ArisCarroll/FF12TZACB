@@ -1,6 +1,6 @@
 package dmf.tzacb.model.licenses;
 
-import dmf.tzacb.logic.jobs.PlayerCharacter;
+import dmf.tzacb.logic.main.PlayerCharacter;
 
 public class LicenseBoard {
 	

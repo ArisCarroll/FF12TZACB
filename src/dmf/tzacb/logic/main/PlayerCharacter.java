@@ -1,4 +1,4 @@
-package dmf.tzacb.logic.jobs;
+package dmf.tzacb.logic.main;
 
 import dmf.tzacb.model.licenses.LicenseBoard;
 
