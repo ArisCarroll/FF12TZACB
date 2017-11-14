@@ -28,7 +28,12 @@ public class WhiteMagick {
 		
 	}
 	
-	public License getWhiteMagick(int index) {
-		return whmLicenses[index];
+	public License getWhiteMagickCopy(int index) {
+		String		 	name 		= whmLicenses[index].getName();
+		int 			cost 		= whmLicenses[index].getCost();
+		LicenseType 	type		= whmLicenses[index].getType();
+		String 			description = whmLicenses[index].getDescription();
+		
+		return new License(name, cost,type,description);
 	}
 }

@@ -25,8 +25,13 @@ public class TimeMagick {
 		
 	}
 	
-	public License getTimeMagick(int index) {
-		return timmLicenses[index];
+	public License getTimeMagickCopy(int index) {
+		String		 	name 		= timmLicenses[index].getName();
+		int 			cost 		= timmLicenses[index].getCost();
+		LicenseType 	type		= timmLicenses[index].getType();
+		String 			description = timmLicenses[index].getDescription();
+		
+		return new License(name, cost,type,description);
 	}
 
 }

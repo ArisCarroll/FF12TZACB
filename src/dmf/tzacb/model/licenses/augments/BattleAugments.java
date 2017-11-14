@@ -40,10 +40,6 @@ public class BattleAugments {
 		baloLicenses[25]  = new License("Brawler",         90, LicenseType.Augment, "Increases attack power when fighting empty-handed.");
 	}
 	
-	public License getBattleLore(int index) {
-		return baloLicenses[index];
-	}
-	
 	public License getBattleLoreCopy(int index) {
 		String		 	name 		= baloLicenses[index].getName();
 		int 			cost 		= baloLicenses[index].getCost();

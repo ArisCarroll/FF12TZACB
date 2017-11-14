@@ -73,7 +73,7 @@ private License[] wpn1Licenses;
 		wpn1Licenses[49] = new License("Kumbha",    80, LicenseType.Weapons1, "Allows character to equip Kumbha.");
 	}
 	
-	public License getWeapon1(int index) {
+	public License getWeapon1Copy(int index) {
 		String		 	name 		= wpn1Licenses[index].getName();
 		int 			cost 		= wpn1Licenses[index].getCost();
 		LicenseType 	type		= wpn1Licenses[index].getType();

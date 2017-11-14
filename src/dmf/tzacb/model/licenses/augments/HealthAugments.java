@@ -26,7 +26,7 @@ public class HealthAugments {
 		heauLicenses[11]  = new License("HP+ 500", 220, LicenseType.Augment, "Increases HP by 500.");	
 	}
 	
-	public License getHealthAugment(int index) {
+	public License getHealthAugmentCopy(int index) {
 		String		 	name 		= heauLicenses[index].getName();
 		int 			cost 		= heauLicenses[index].getCost();
 		LicenseType 	type		= heauLicenses[index].getType();

@@ -9,7 +9,7 @@ public class EspersQuickEssentials {
 	
 	public EspersQuickEssentials () {
 		
-		eqeeLicenses = new License[30];
+		eqeeLicenses = new License[20];
 		
 		// Espers Quckenings Essentials and Empty
 		eqeeLicenses[0]  = new License("Empty",          0, LicenseType.Empty,       "Empty.");
@@ -34,7 +34,7 @@ public class EspersQuickEssentials {
 		eqeeLicenses[19] = new License("Zodiark",      200, LicenseType.Summon,      "Unlocks Zodiark.");
 	}
 		
-	public License getEQEE(int index) {
+	public License getEQEECopy(int index) {
 		String		 	name 		= eqeeLicenses[index].getName();
 		int 			cost 		= eqeeLicenses[index].getCost();
 		LicenseType 	type		= eqeeLicenses[index].getType();

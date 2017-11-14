@@ -59,10 +59,6 @@ public class Weapons3 {
 		
 	}
 	
-	public License getWeapon3(int index) {
-		return wpn3Licenses[index];
-	}
-	
 	public License getWeapon3Copy(int index) {
 		String		 	name 		= wpn3Licenses[index].getName();
 		int 			cost 		= wpn3Licenses[index].getCost();

@@ -37,7 +37,7 @@ private License[] accessoriesLicenses;
 		accessoriesLicenses[22] = new License("Ribbon",         215, LicenseType.Accessory, "Allows character to equip Ribbon.");
 	}		
 	
-	public License getAccessory(int index) {
+	public License getAccessoryCopy(int index) {
 		String		 	name 		= accessoriesLicenses[index].getName();
 		int 			cost 		= accessoriesLicenses[index].getCost();
 		LicenseType 	type		= accessoriesLicenses[index].getType();

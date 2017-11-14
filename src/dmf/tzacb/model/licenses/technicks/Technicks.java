@@ -10,7 +10,7 @@ public class Technicks {
 	
 	public Technicks () {
 		
-		techLicenses = new License[24];
+		techLicenses = new License[34];
 		
 		// White Magick
 		techLicenses[0]   = new License("Steal",           20, LicenseType.Technick, "Steal from one foe.");

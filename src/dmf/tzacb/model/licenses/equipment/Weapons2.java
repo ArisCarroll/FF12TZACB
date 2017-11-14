@@ -39,7 +39,7 @@ public class Weapons2 {
 		wpn2Licenses[19] = new License("Staff of the Magi", 150, LicenseType.Weapons2,"Allows character to equip Staff of the Magi.");
 	}
 	
-	public License getWeapon2(int index) {
+	public License getWeapon2Copy(int index) {
 		String		 	name 		= wpn2Licenses[index].getName();
 		int 			cost 		= wpn2Licenses[index].getCost();
 		LicenseType 	type		= wpn2Licenses[index].getType();

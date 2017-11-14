@@ -69,7 +69,7 @@ private License[] armorLicenses;
 		armorLicenses[48] = new License("Zodiac Escutcheon",  235, LicenseType.Armor, "Allows character to equip Zodiac Escutcheon.");		
 	}
 
-	public License getArmor(int index) {
+	public License getArmorCopy(int index) {
 		String		 	name 		= armorLicenses[index].getName();
 		int 			cost 		= armorLicenses[index].getCost();
 		LicenseType 	type		= armorLicenses[index].getType();

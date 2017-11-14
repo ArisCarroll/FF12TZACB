@@ -26,10 +26,6 @@ public class ItemAugments {
 		itauLicenses[11]  = new License("Phoenix Lore 3", 90, LicenseType.Augment, "Increases Phoenix Down effect.");
 	}
 	
-	public License getItemAugment(int index) {
-		return itauLicenses[index];
-	}	
-	
 	public License getItemAugmentCopy(int index) {
 		String		 	name 		= itauLicenses[index].getName();
 		int 			cost 		= itauLicenses[index].getCost();

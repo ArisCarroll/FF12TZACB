@@ -40,7 +40,7 @@ public class MagickAugments {
 		maloLicenses[25]  = new License("Spellbound",      30, LicenseType.Augment, "Increases duration of status effects.");
 	}
 
-	public License getMagickLore(int index) {
+	public License getMagickLoreCopy(int index) {
 		String		 	name 		= maloLicenses[index].getName();
 		int 			cost 		= maloLicenses[index].getCost();
 		LicenseType 	type		= maloLicenses[index].getType();

@@ -18,8 +18,13 @@ public class GreenMagick {
 		
 	}
 	
-	public License getGreenMagick(int index) {
-		return grnmLicenses[index];
+	public License getGreenMagickCopy(int index) {
+		String		 	name 		= grnmLicenses[index].getName();
+		int 			cost 		= grnmLicenses[index].getCost();
+		LicenseType 	type		= grnmLicenses[index].getType();
+		String 			description = grnmLicenses[index].getDescription();
+		
+		return new License(name, cost,type,description);
 	}
 
 }
