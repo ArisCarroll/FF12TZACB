@@ -29,7 +29,7 @@ public class EspersQuickEssentials {
 		eqeeLicenses[14]  = new License("Chaos",        100, LicenseType.Summon,      "Unlocks Chaos.");
 		eqeeLicenses[15]  = new License("Ultima",       115, LicenseType.Summon,      "Unlocks Ultima.");
 		eqeeLicenses[16]  = new License("Zodiark",      200, LicenseType.Summon,      "Unlocks Zodiark.");
-		eqeeLicenses[17]  = new License("Essentials",     0, LicenseType.Essentials,  "Character Essentials.");
+		eqeeLicenses[17]  = new License("Essentials",     0, LicenseType.Essentials,  "Unlocks Attack and Items.");
 		eqeeLicenses[18]  = new License("Empty",          0, LicenseType.Empty,       "Empty.");
 		eqeeLicenses[19]  = new License("Second Board",  30, LicenseType.SecondBoard, "Unlocks Second Board.");
 		eqeeLicenses[20]  = new License("Gambit  1",     15, LicenseType.Gambit, 	  "Unlocks an additional Gambit.");

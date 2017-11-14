@@ -549,9 +549,6 @@ public class Machinist extends LicenseBoard {
 		// ROW 19
 		column = 18;
 		
-		// ROW 19
-		column = 18;
-		
 		licenseGrid[0][column] = eqee.getEQEE(18);
 		licenseGrid[1][column] = eqee.getEQEE(18);
 		licenseGrid[2][column] = eqee.getEQEE(18);
