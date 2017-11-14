@@ -1,4 +1,4 @@
-package dmf.tzacb.main;
+package dmf.tzacb.logic.main;
 
 import javax.swing.JFrame;
 
