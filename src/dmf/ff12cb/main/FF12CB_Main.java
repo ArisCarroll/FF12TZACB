@@ -2,6 +2,7 @@ package dmf.ff12cb.main;
 
 import javax.swing.JFrame;
 
+import dmf.ff12.logic.jobs.PlayerCharacter;
 import dmf.ff12.logic.jobs.Augments.BattleAugments;
 import dmf.ff12.logic.jobs.Augments.HealthAugments;
 import dmf.ff12.logic.jobs.Augments.ItemAugments;
@@ -16,24 +17,35 @@ import dmf.ff12cb.gui.MainGui;
 
 public class FF12CB_Main {
 	
+	// Characters
+	private static PlayerCharacter[] characters; 
+	
 	// Augments
-	BattleAugments battleAugments = new BattleAugments();
-	HealthAugments healthAugments = new HealthAugments();
-	ItemAugments   itemAugments   = new ItemAugments();
-	MagickAugments magickAugments = new MagickAugments();
+	private BattleAugments battleAugments = new BattleAugments();
+	private HealthAugments healthAugments = new HealthAugments();
+	private ItemAugments   itemAugments   = new ItemAugments();
+	private MagickAugments magickAugments = new MagickAugments();
 	
 	// Equipment
-	Accessories    accessories    = new Accessories();
-	Armor		   armor		  = new Armor();
-	Weapons1	   weapons1		  = new Weapons1();
-	Weapons2	   weapons2		  = new Weapons2();
-	Weapons3	   weapons3		  = new Weapons3();
+	private Accessories    accessories    = new Accessories();
+	private Armor		   armor		  = new Armor();
+	private Weapons1	   weapons1		  = new Weapons1();
+	private Weapons2	   weapons2		  = new Weapons2();
+	private Weapons3	   weapons3		  = new Weapons3();
 	
 	// Espers Quickenings Essentials and Empty
-	EspersQuickEssentials eqee	  = new EspersQuickEssentials();
+	private EspersQuickEssentials eqee	  = new EspersQuickEssentials();
 	
 	public static void main(String[] args) {
-        System.out.println("Hello World!"); // Display the string.
+        
+		characters = new PlayerCharacter[6];
+        
+        characters[0] = new PlayerCharacter("Vaan");
+        characters[1] = new PlayerCharacter("Balthier");
+        characters[2] = new PlayerCharacter("Fran");
+        characters[3] = new PlayerCharacter("Basch");
+        characters[4] = new PlayerCharacter("Ashe");
+        characters[5] = new PlayerCharacter("Penelo");
         
         JFrame window = new MainGui();
         window.show();

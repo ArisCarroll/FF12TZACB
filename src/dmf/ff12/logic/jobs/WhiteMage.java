@@ -16,11 +16,9 @@ import dmf.ff12.logic.jobs.technicks.Technicks;
 
 public class WhiteMage extends LicenseBoard {
 
-
-	public WhiteMage(Character holder, EspersQuickEssentials eqee, BattleAugments battleAug, HealthAugments healthAug, ItemAugments itemAug, MagickAugments magAug,
+	public WhiteMage(PlayerCharacter holder, EspersQuickEssentials eqee, BattleAugments battleAug, HealthAugments healthAug, ItemAugments itemAug, MagickAugments magAug,
 					 Accessories accessories, Armor armor, Weapons1 weapons1, Weapons2 weapons2, Weapons3 weapons3, Technicks technicks, WhiteMagick whm, GreenMagick grm) {
 
-		
 		setBoardHolder(holder);
 
 		// ROW 1
@@ -580,19 +578,19 @@ public class WhiteMage extends LicenseBoard {
 		licenseGrid[4][column] = eqee.getEQEE(18);
 		licenseGrid[5][column] = eqee.getEQEE(18);
 		licenseGrid[6][column] = eqee.getEQEE(18);
-		licenseGrid[0][column] = eqee.getEQEE(18);
-		licenseGrid[1][column] = eqee.getEQEE(18);
-		licenseGrid[2][column] = eqee.getEQEE(18);
+		licenseGrid[7][column] = eqee.getEQEE(18);
+		licenseGrid[8][column] = eqee.getEQEE(18);
+		licenseGrid[9][column] = eqee.getEQEE(18);
 		
-		licenseGrid[2][column] = battleAug.getBattleLore(4);
+		licenseGrid[10][column] = battleAug.getBattleLore(4);
 		
-		licenseGrid[0][column] = eqee.getEQEE(18);
-		licenseGrid[1][column] = eqee.getEQEE(18);
-		licenseGrid[2][column] = eqee.getEQEE(18);
-		licenseGrid[3][column] = eqee.getEQEE(18);
-		licenseGrid[4][column] = eqee.getEQEE(18);
-		licenseGrid[5][column] = eqee.getEQEE(18);
-		licenseGrid[6][column] = eqee.getEQEE(18);
+		licenseGrid[11][column] = eqee.getEQEE(18);
+		licenseGrid[12][column] = eqee.getEQEE(18);
+		licenseGrid[13][column] = eqee.getEQEE(18);
+		licenseGrid[14][column] = eqee.getEQEE(18);
+		licenseGrid[15][column] = eqee.getEQEE(18);
+		licenseGrid[16][column] = eqee.getEQEE(18);
+		licenseGrid[17][column] = eqee.getEQEE(18);
 		
 		calculateTotalCost();
 	}

@@ -3,7 +3,7 @@ package dmf.ff12.logic.jobs;
 public class LicenseBoard {
 	
 	public License[][] licenseGrid;
-	public Character boardHolder;
+	public PlayerCharacter boardHolder;
 	public int totalAPCost = 0;
 	public int currentApSpent = 0;
 	
@@ -53,11 +53,11 @@ public class LicenseBoard {
 		return licenseGrid[row][column].isAquired();
 	}
 	
-	public Character getBoardHolder() {
+	public PlayerCharacter getBoardHolder() {
 		return boardHolder;
 	}
 
-	public void setBoardHolder(Character boardHolder) {
+	public void setBoardHolder(PlayerCharacter boardHolder) {
 		this.boardHolder = boardHolder;
 	}
 	
