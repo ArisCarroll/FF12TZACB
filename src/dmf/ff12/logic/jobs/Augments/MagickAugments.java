@@ -9,7 +9,7 @@ public class MagickAugments {
 	
 	public MagickAugments () {
 		
-		maloLicenses = new License[19];
+		maloLicenses = new License[26];
 		
 		// Espers Quckenings Essentials and Empty
 		maloLicenses[0]   = new License("Magick Lore  1",  30, LicenseType.Augment, "Increases Magick potency.");
@@ -30,11 +30,22 @@ public class MagickAugments {
 		maloLicenses[15]  = new License("Magick Lore 16", 100, LicenseType.Augment, "Increases Magick potency.");
 		maloLicenses[16]  = new License("Channeling 1",    30, LicenseType.Augment, "Reduces magick MP cost by 10%.");	
 		maloLicenses[17]  = new License("Channeling 2",    50, LicenseType.Augment, "Reduces magick MP cost by 10%.");	
-		maloLicenses[18]  = new License("Channeling 3",    80, LicenseType.Augment, "Reduces magick MP cost by 10%.");		
-	}
-	
-	public License getMagickLore(int index) {
-		return maloLicenses[index];
+		maloLicenses[18]  = new License("Channeling 3",    80, LicenseType.Augment, "Reduces magick MP cost by 10%.");
+		maloLicenses[19]  = new License("Serenity",        70, LicenseType.Augment, "Increases magick power when HP is full.");
+		maloLicenses[20]  = new License("Spellbreaker",    65, LicenseType.Augment, "Increases magick power when HP critical.");
+		maloLicenses[21]  = new License("Inquisitor",      30, LicenseType.Augment, "Gain MP after dealing damage.");
+		maloLicenses[22]  = new License("Warmage",         30, LicenseType.Augment, "Gain MP after dealing magick damage.");
+		maloLicenses[23]  = new License("Headsman",        30, LicenseType.Augment, "Gain MP after defeating a foe.");
+		maloLicenses[24]  = new License("Martyr",          30, LicenseType.Augment, "Gain MP after taking damage.");
+		maloLicenses[25]  = new License("Spellbound",      30, LicenseType.Augment, "Increases duration of status effects.");
 	}
 
+	public License getMagickLore(int index) {
+		String		 	name 		= maloLicenses[index].getName();
+		int 			cost 		= maloLicenses[index].getCost();
+		LicenseType 	type		= maloLicenses[index].getType();
+		String 			description = maloLicenses[index].getDescription();
+		
+		return new License(name, cost,type,description);
+	}
 }

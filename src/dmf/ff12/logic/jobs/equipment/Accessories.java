@@ -36,8 +36,13 @@ private License[] accessoriesLicenses;
 		accessoriesLicenses[21] = new License("Accessories 22", 160, LicenseType.Accessory, "Allows character to equip Germinas Boots and Ring of Renewal.");
 		accessoriesLicenses[22] = new License("Ribbon",         215, LicenseType.Accessory, "Allows character to equip Ribbon.");
 	}		
-
+	
 	public License getAccessory(int index) {
-		return accessoriesLicenses[index];
+		String		 	name 		= accessoriesLicenses[index].getName();
+		int 			cost 		= accessoriesLicenses[index].getCost();
+		LicenseType 	type		= accessoriesLicenses[index].getType();
+		String 			description = accessoriesLicenses[index].getDescription();
+		
+		return new License(name, cost,type,description);
 	}
 }

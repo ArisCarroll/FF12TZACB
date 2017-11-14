@@ -43,4 +43,13 @@ public class Technicks {
 	public License getTechnick(int index) {
 		return techLicenses[index];
 	}
+	
+	public License getTechnickCopy(int index) {
+		String		 	name 		= techLicenses[index].getName();
+		int 			cost 		= techLicenses[index].getCost();
+		LicenseType 	type		= techLicenses[index].getType();
+		String 			description = techLicenses[index].getDescription();
+		
+		return new License(name, cost,type,description);
+	}
 }

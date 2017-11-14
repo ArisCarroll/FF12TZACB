@@ -74,7 +74,12 @@ private License[] wpn1Licenses;
 	}
 	
 	public License getWeapon1(int index) {
-		return wpn1Licenses[index];
+		String		 	name 		= wpn1Licenses[index].getName();
+		int 			cost 		= wpn1Licenses[index].getCost();
+		LicenseType 	type		= wpn1Licenses[index].getType();
+		String 			description = wpn1Licenses[index].getDescription();
+		
+		return new License(name, cost,type,description);
 	}
 
 }

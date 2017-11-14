@@ -70,6 +70,11 @@ private License[] armorLicenses;
 	}
 
 	public License getArmor(int index) {
-		return armorLicenses[index];
+		String		 	name 		= armorLicenses[index].getName();
+		int 			cost 		= armorLicenses[index].getCost();
+		LicenseType 	type		= armorLicenses[index].getType();
+		String 			description = armorLicenses[index].getDescription();
+		
+		return new License(name, cost,type,description);
 	}
 }

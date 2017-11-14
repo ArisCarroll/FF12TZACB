@@ -29,4 +29,13 @@ public class ItemAugments {
 	public License getItemAugment(int index) {
 		return itauLicenses[index];
 	}	
+	
+	public License getItemAugmentCopy(int index) {
+		String		 	name 		= itauLicenses[index].getName();
+		int 			cost 		= itauLicenses[index].getCost();
+		LicenseType 	type		= itauLicenses[index].getType();
+		String 			description = itauLicenses[index].getDescription();
+		
+		return new License(name, cost,type,description);
+	}
 }

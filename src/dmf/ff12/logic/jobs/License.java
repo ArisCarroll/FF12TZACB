@@ -2,9 +2,14 @@
 
 package dmf.ff12.logic.jobs;
 
+import java.io.Serializable;
 
-public class License {
+public class License implements Serializable {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String licenseName;
 	private int apCost;
 	private LicenseType licenseType;
@@ -42,4 +47,5 @@ public class License {
 	public boolean isAquired() {
 		return aquired;
 	}
+	
 }

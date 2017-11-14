@@ -40,6 +40,12 @@ public class Weapons2 {
 	}
 	
 	public License getWeapon2(int index) {
-		return wpn2Licenses[index];
+		String		 	name 		= wpn2Licenses[index].getName();
+		int 			cost 		= wpn2Licenses[index].getCost();
+		LicenseType 	type		= wpn2Licenses[index].getType();
+		String 			description = wpn2Licenses[index].getDescription();
+		
+		return new License(name, cost,type,description);
 	}
+
 }

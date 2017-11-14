@@ -9,7 +9,7 @@ public class BattleAugments {
 	
 	public BattleAugments () {
 		
-		baloLicenses = new License[19];
+		baloLicenses = new License[26];
 		
 		// Espers Quckenings Essentials and Empty
 		baloLicenses[0]   = new License("Battle Lore  1",  30, LicenseType.Augment, "Increases physical attack damage.");
@@ -34,9 +34,22 @@ public class BattleAugments {
 		baloLicenses[19]  = new License("Shield Block 1",  30, LicenseType.Augment, "Increases chance to block using shield.");
 		baloLicenses[20]  = new License("Shield Block 2",  45, LicenseType.Augment, "Increases chance to block using shield.");
 		baloLicenses[21]  = new License("Shield Block 3",  75, LicenseType.Augment, "Increases chance to block using shield.");
+		baloLicenses[22]  = new License("Focus",           30, LicenseType.Augment, "Increases strength when HP is full.");
+		baloLicenses[23]  = new License("Adrenaline",      65, LicenseType.Augment, "Increases strength when HP critical.");
+		baloLicenses[24]  = new License("Last Stand",      70, LicenseType.Augment, "Increases defense when HP critical.");
+		baloLicenses[25]  = new License("Brawler",         90, LicenseType.Augment, "Increases attack power when fighting empty-handed.");
 	}
 	
 	public License getBattleLore(int index) {
 		return baloLicenses[index];
+	}
+	
+	public License getBattleLoreCopy(int index) {
+		String		 	name 		= baloLicenses[index].getName();
+		int 			cost 		= baloLicenses[index].getCost();
+		LicenseType 	type		= baloLicenses[index].getType();
+		String 			description = baloLicenses[index].getDescription();
+		
+		return new License(name, cost,type,description);
 	}
 }

@@ -27,6 +27,11 @@ public class HealthAugments {
 	}
 	
 	public License getHealthAugment(int index) {
-		return heauLicenses[index];
+		String		 	name 		= heauLicenses[index].getName();
+		int 			cost 		= heauLicenses[index].getCost();
+		LicenseType 	type		= heauLicenses[index].getType();
+		String 			description = heauLicenses[index].getDescription();
+		
+		return new License(name, cost,type,description);
 	}
 }
