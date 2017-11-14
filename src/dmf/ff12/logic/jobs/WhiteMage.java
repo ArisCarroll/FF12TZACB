@@ -16,9 +16,6 @@ import dmf.ff12.logic.jobs.technicks.Technicks;
 
 public class WhiteMage extends LicenseBoard {
 
-	private Character	boardHolder;
-	private int			totalCost = 0;
-	private int			currentCost = 0;
 
 	public WhiteMage(Character holder, EspersQuickEssentials eqee, BattleAugments battleAug, HealthAugments healthAug, ItemAugments itemAug, MagickAugments magAug,
 					 Accessories accessories, Armor armor, Weapons1 weapons1, Weapons2 weapons2, Weapons3 weapons3, Technicks technicks, WhiteMagick whm, GreenMagick grm) {
@@ -598,48 +595,6 @@ public class WhiteMage extends LicenseBoard {
 		licenseGrid[6][column] = eqee.getEQEE(18);
 		
 		calculateTotalCost();
-	}
-	
-	private void calculateTotalCost() {
-		
-		for(int i = 0; i < 19; i++) {
-			for(int j = 0; j < 18; i++) {
-				totalCost += licenseGrid[j][i].getCost();
-			}
-		}
-	}
-	
-	public int calculateCurrentCost() {
-		
-		for(int i = 0; i < 19; i++) {
-			for(int j = 0; j < 18; i++) {
-				if(licenseGrid[j][i].isAquired()) {
-					currentCost += licenseGrid[j][i].getCost();
-				}
-			}
-		}
-		
-		return currentCost;
-	}
-	
-	public void aquireLicense(int row, int column) {
-		licenseGrid[row][column].aquireLicense();
-	}
-	
-	public boolean wasLicenseAquired(int row, int column) {
-		return licenseGrid[row][column].isAquired();
-	}
-	
-	public int getTotalCost() {
-		return totalCost;
-	}
-
-	public Character getBoardHolder() {
-		return boardHolder;
-	}
-
-	public void setBoardHolder(Character boardHolder) {
-		this.boardHolder = boardHolder;
 	}
 
 }

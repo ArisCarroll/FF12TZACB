@@ -3,8 +3,9 @@ package dmf.ff12.logic.jobs;
 public class LicenseBoard {
 	
 	public License[][] licenseGrid;
-	private int totalAPCost = 0;
-	private int currentApSpent = 0;
+	public Character boardHolder;
+	public int totalAPCost = 0;
+	public int currentApSpent = 0;
 	
 	public LicenseBoard() {
 		licenseGrid = new License[18][19];
@@ -14,12 +15,50 @@ public class LicenseBoard {
 		licenseGrid[row][column] = license;
 	}
 	
+	public void calculateTotalCost() {
+		
+		for(int i = 0; i < 19; i++) {
+			for(int j = 0; j < 18; i++) {
+				totalAPCost += licenseGrid[j][i].getCost();
+			}
+		}
+	}
+	
+	public int calculateCurrentCost() {
+		
+		for(int i = 0; i < 19; i++) {
+			for(int j = 0; j < 18; i++) {
+				if(licenseGrid[j][i].isAquired()) {
+					currentApSpent += licenseGrid[j][i].getCost();
+				}
+			}
+		}
+		
+		return currentApSpent;
+	}
+	
 	public int getTotalCost() {
 		return totalAPCost;
 	}
 	
 	public int getCurrentCost() {
 		return currentApSpent;
+	}
+	
+	public void aquireLicense(int row, int column) {
+		licenseGrid[row][column].aquireLicense();
+	}
+	
+	public boolean wasLicenseAquired(int row, int column) {
+		return licenseGrid[row][column].isAquired();
+	}
+	
+	public Character getBoardHolder() {
+		return boardHolder;
+	}
+
+	public void setBoardHolder(Character boardHolder) {
+		this.boardHolder = boardHolder;
 	}
 	
 }
