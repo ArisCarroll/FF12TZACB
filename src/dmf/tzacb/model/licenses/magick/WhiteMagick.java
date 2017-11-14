@@ -1,7 +1,7 @@
-package dmf.ff12.logic.jobs.magick;
+package dmf.tzacb.model.licenses.magick;
 
-import dmf.ff12.logic.jobs.License;
-import dmf.ff12.logic.jobs.LicenseType;
+import dmf.tzacb.model.licenses.License;
+import dmf.tzacb.model.licenses.LicenseType;
 
 public class WhiteMagick {
 	

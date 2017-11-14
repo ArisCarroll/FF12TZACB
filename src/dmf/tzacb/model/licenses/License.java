@@ -1,6 +1,6 @@
 
 
-package dmf.ff12.logic.jobs;
+package dmf.tzacb.model.licenses;
 
 import java.io.Serializable;
 

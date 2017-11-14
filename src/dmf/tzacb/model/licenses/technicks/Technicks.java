@@ -1,7 +1,7 @@
-package dmf.ff12.logic.jobs.technicks;
+package dmf.tzacb.model.licenses.technicks;
 
-import dmf.ff12.logic.jobs.License;
-import dmf.ff12.logic.jobs.LicenseType;
+import dmf.tzacb.model.licenses.License;
+import dmf.tzacb.model.licenses.LicenseType;
 
 public class Technicks {
 	
@@ -37,11 +37,17 @@ public class Technicks {
 		techLicenses[21]  = new License("Addle",           50, LicenseType.Technick, "Lower one foe's magick power.");
 		techLicenses[22]  = new License("Expose",          50, LicenseType.Technick, "Lower one foe's defense.");
 		techLicenses[23]  = new License("Shear",           50, LicenseType.Technick, "Lower one foe's magick resist.");
+		techLicenses[24]  = new License("Gambit  1",       15, LicenseType.Gambit, 	 "Unlocks an additional Gambit.");
+		techLicenses[25]  = new License("Gambit  2",       20, LicenseType.Gambit, 	 "Unlocks an additional Gambit.");
+		techLicenses[26]  = new License("Gambit  3",       25, LicenseType.Gambit,   "Unlocks an additional Gambit.");
+		techLicenses[27]  = new License("Gambit  4",       30, LicenseType.Gambit,   "Unlocks an additional Gambit.");
+		techLicenses[28]  = new License("Gambit  5",       35, LicenseType.Gambit,   "Unlocks an additional Gambit.");
+		techLicenses[29]  = new License("Gambit  6",       40, LicenseType.Gambit,   "Unlocks an additional Gambit.");
+		techLicenses[30]  = new License("Gambit  7",       45, LicenseType.Gambit,   "Unlocks an additional Gambit.");
+		techLicenses[31]  = new License("Gambit  8",       50, LicenseType.Gambit,   "Unlocks an additional Gambit.");
+		techLicenses[32]  = new License("Gambit  9",       70, LicenseType.Gambit,   "Unlocks an additional Gambit.");
+		techLicenses[33]  = new License("Gambit 10",      100, LicenseType.Gambit,   "Unlocks an additional Gambit.");
 		
-	}
-	
-	public License getTechnick(int index) {
-		return techLicenses[index];
 	}
 	
 	public License getTechnickCopy(int index) {

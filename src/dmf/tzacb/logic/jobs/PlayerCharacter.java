@@ -1,4 +1,6 @@
-package dmf.ff12.logic.jobs;
+package dmf.tzacb.logic.jobs;
+
+import dmf.tzacb.model.licenses.LicenseBoard;
 
 public class PlayerCharacter {
 	
@@ -66,5 +68,10 @@ public class PlayerCharacter {
 		}
 		
 		return currentBoardCost;
+	}
+	
+	public void updateCharacter() {
+		calcTotalBoardCost();
+		calcCurrentBoardCost();
 	}
 }

@@ -1,21 +1,21 @@
-package dmf.ff12cb.main;
+package dmf.tzacb.main;
 
 import javax.swing.JFrame;
 
-import dmf.ff12.logic.jobs.PlayerCharacter;
-import dmf.ff12.logic.jobs.Augments.BattleAugments;
-import dmf.ff12.logic.jobs.Augments.HealthAugments;
-import dmf.ff12.logic.jobs.Augments.ItemAugments;
-import dmf.ff12.logic.jobs.Augments.MagickAugments;
-import dmf.ff12.logic.jobs.EspersQuickEssentials.EspersQuickEssentials;
-import dmf.ff12.logic.jobs.equipment.Accessories;
-import dmf.ff12.logic.jobs.equipment.Armor;
-import dmf.ff12.logic.jobs.equipment.Weapons1;
-import dmf.ff12.logic.jobs.equipment.Weapons2;
-import dmf.ff12.logic.jobs.equipment.Weapons3;
-import dmf.ff12cb.gui.MainGui;
+import dmf.tzacb.gui.MainGui;
+import dmf.tzacb.logic.jobs.PlayerCharacter;
+import dmf.tzacb.model.licenses.augments.BattleAugments;
+import dmf.tzacb.model.licenses.augments.HealthAugments;
+import dmf.tzacb.model.licenses.augments.ItemAugments;
+import dmf.tzacb.model.licenses.augments.MagickAugments;
+import dmf.tzacb.model.licenses.equipment.Accessories;
+import dmf.tzacb.model.licenses.equipment.Armor;
+import dmf.tzacb.model.licenses.equipment.Weapons1;
+import dmf.tzacb.model.licenses.equipment.Weapons2;
+import dmf.tzacb.model.licenses.equipment.Weapons3;
+import dmf.tzacb.model.licenses.espersquickessentials.EspersQuickEssentials;
 
-public class FF12CB_Main {
+public class TZACB_Main {
 	
 	// Characters
 	private static PlayerCharacter[] characters; 
