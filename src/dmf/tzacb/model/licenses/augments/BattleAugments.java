@@ -31,7 +31,7 @@ public class BattleAugments {
 		baloLicenses[16]  = new License("Swiftness 1",     30, LicenseType.Augment, "Reduces action time by 10%.");
 		baloLicenses[17]  = new License("Swiftness 2",     50, LicenseType.Augment, "Reduces action time by 10%.");
 		baloLicenses[18]  = new License("Swiftness 3",     80, LicenseType.Augment, "Reduces action time by 10%.");
-		baloLicenses[19]  = new License("Shield Block 1",  30, LicenseType.Augment, "Increases chance to block using shield.");
+		baloLicenses[19]  = new License("Shield Block 1",  25, LicenseType.Augment, "Increases chance to block using shield.");
 		baloLicenses[20]  = new License("Shield Block 2",  45, LicenseType.Augment, "Increases chance to block using shield.");
 		baloLicenses[21]  = new License("Shield Block 3",  75, LicenseType.Augment, "Increases chance to block using shield.");
 		baloLicenses[22]  = new License("Focus",           30, LicenseType.Augment, "Increases strength when HP is full.");
