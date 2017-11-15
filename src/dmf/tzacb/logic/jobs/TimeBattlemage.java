@@ -36,15 +36,15 @@ public class TimeBattlemage extends LicenseBoard {
 		licenseGrid[3][column] = eqee.getEQEECopy(0);
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[5][column] = eqee.getEQEECopy(0);
+		licenseGrid[5][column] = magAug.getMagickLoreCopy(18);
 		
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[7][column] = eqee.getEQEECopy(0);
+		licenseGrid[7][column] = healthAug.getHealthAugmentCopy(3);
 		
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[9][column] = eqee.getEQEECopy(0);
+		licenseGrid[9][column] = whm.getWhiteMagickCopy(3);
 		
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
@@ -64,11 +64,11 @@ public class TimeBattlemage extends LicenseBoard {
 		licenseGrid[3][column] = eqee.getEQEECopy(0);
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[5][column] = eqee.getEQEECopy(0);
+		licenseGrid[5][column] = eqee.getEQEECopy(10);
 		
-		licenseGrid[6][column] = eqee.getEQEECopy(0);
+		licenseGrid[6][column] = eqee.getEQEECopy(4);
 		
-		licenseGrid[7][column] = eqee.getEQEECopy(0);
+		licenseGrid[7][column] = eqee.getEQEECopy(12);
 		
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
 		
@@ -90,21 +90,21 @@ public class TimeBattlemage extends LicenseBoard {
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[3][column] = eqee.getEQEECopy(0);
+		licenseGrid[3][column] = technicks.getTechnickCopy(31);
 		
-		licenseGrid[4][column] = eqee.getEQEECopy(0);
-		licenseGrid[5][column] = eqee.getEQEECopy(0);
-		licenseGrid[6][column] = eqee.getEQEECopy(0);
-		licenseGrid[7][column] = eqee.getEQEECopy(0);
+		licenseGrid[4][column] = magAug.getMagickLoreCopy(16);
+		licenseGrid[5][column] = magAug.getMagickLoreCopy(4);
+		licenseGrid[6][column] = magAug.getMagickLoreCopy(22);
+		licenseGrid[7][column] = magAug.getMagickLoreCopy(5);
 		
-		licenseGrid[8][column] = eqee.getEQEECopy(0);
+		licenseGrid[8][column] = technicks.getTechnickCopy(10);
 		
-		licenseGrid[9][column] = eqee.getEQEECopy(0);
-		licenseGrid[10][column] = eqee.getEQEECopy(0);
+		licenseGrid[9][column] = magAug.getMagickLoreCopy(0);
+		licenseGrid[10][column] = magAug.getMagickLoreCopy(1);
 		
-		licenseGrid[11][column] = eqee.getEQEECopy(0);
+		licenseGrid[11][column] = technicks.getTechnickCopy(2);
 		
-		licenseGrid[12][column] = eqee.getEQEECopy(0);
+		licenseGrid[12][column] = magAug.getMagickLoreCopy(20);
 		
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
 		licenseGrid[14][column] = eqee.getEQEECopy(0);
@@ -117,29 +117,29 @@ public class TimeBattlemage extends LicenseBoard {
 		
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[1][column] = eqee.getEQEECopy(0);
+		licenseGrid[1][column] = battleAug.getBattleLoreCopy(8);
 		
-		licenseGrid[2][column] = eqee.getEQEECopy(0);
+		licenseGrid[2][column] = eqee.getEQEECopy(15);
 		
-		licenseGrid[3][column] = eqee.getEQEECopy(0);
+		licenseGrid[3][column] = technicks.getTechnickCopy(32);
 		
-		licenseGrid[4][column] = eqee.getEQEECopy(0);
+		licenseGrid[4][column] = magAug.getMagickLoreCopy(23);
 		
-		licenseGrid[5][column] = eqee.getEQEECopy(0);
+		licenseGrid[5][column] = armor.getArmorCopy(18);
 		
-		licenseGrid[6][column] = eqee.getEQEECopy(0);
+		licenseGrid[6][column] = tim.getTimeMagickCopy(5);
 		
-		licenseGrid[7][column] = eqee.getEQEECopy(0);
+		licenseGrid[7][column] = battleAug.getBattleLoreCopy(16);
 		
-		licenseGrid[8][column] = eqee.getEQEECopy(0);
+		licenseGrid[8][column] = armor.getArmorCopy(17);
 		
-		licenseGrid[9][column] = eqee.getEQEECopy(0);
+		licenseGrid[9][column] = tim.getTimeMagickCopy(4);
 		
-		licenseGrid[10][column] = eqee.getEQEECopy(0);
+		licenseGrid[10][column] = armor.getArmorCopy(16);
 		
-		licenseGrid[11][column] = eqee.getEQEECopy(0);
+		licenseGrid[11][column] = itemAug.getItemAugmentCopy(4);
 		
-		licenseGrid[12][column] = eqee.getEQEECopy(0);
+		licenseGrid[12][column] = technicks.getTechnickCopy(30);
 		
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
 		licenseGrid[14][column] = eqee.getEQEECopy(0);
@@ -154,28 +154,28 @@ public class TimeBattlemage extends LicenseBoard {
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[3][column] = eqee.getEQEECopy(0);
+		licenseGrid[3][column] = technicks.getTechnickCopy(33);
 		
-		licenseGrid[4][column] = eqee.getEQEECopy(0);
+		licenseGrid[4][column] = magAug.getMagickLoreCopy(6);
 		
-		licenseGrid[5][column] = eqee.getEQEECopy(0);
+		licenseGrid[5][column] = tim.getTimeMagickCopy(6);
 		
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[7][column] = eqee.getEQEECopy(0);
+		licenseGrid[7][column] = eqee.getEQEECopy(9);
 		
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[10][column] = eqee.getEQEECopy(0);
+		licenseGrid[10][column] = magAug.getMagickLoreCopy(2);
 		
-		licenseGrid[11][column] = eqee.getEQEECopy(0);
+		licenseGrid[11][column] = tim.getTimeMagickCopy(3);
 		
-		licenseGrid[12][column] = eqee.getEQEECopy(0);
+		licenseGrid[12][column] = technicks.getTechnickCopy(29);
 		
-		licenseGrid[13][column] = eqee.getEQEECopy(0);
+		licenseGrid[13][column] = eqee.getEQEECopy(8);
 		
-		licenseGrid[14][column] = eqee.getEQEECopy(0);
+		licenseGrid[14][column] = healthAug.getHealthAugmentCopy(5);
 		
 		licenseGrid[15][column] = eqee.getEQEECopy(0);
 		licenseGrid[16][column] = eqee.getEQEECopy(0);
@@ -188,24 +188,24 @@ public class TimeBattlemage extends LicenseBoard {
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[3][column] = eqee.getEQEECopy(0);
-		licenseGrid[4][column] = eqee.getEQEECopy(0);
+		licenseGrid[3][column] = healthAug.getHealthAugmentCopy(4);
+		licenseGrid[4][column] = itemAug.getItemAugmentCopy(7);
 		
-		licenseGrid[5][column] = eqee.getEQEECopy(0);
+		licenseGrid[5][column] = armor.getArmorCopy(19);
 		
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[7][column] = eqee.getEQEECopy(0);
+		licenseGrid[7][column] = itemAug.getItemAugmentCopy(5);
 		
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[9][column] = eqee.getEQEECopy(0);
+		licenseGrid[9][column] = eqee.getEQEECopy(2);
 		
-		licenseGrid[10][column] = eqee.getEQEECopy(0);
+		licenseGrid[10][column] = armor.getArmorCopy(15);
 		
-		licenseGrid[11][column] = eqee.getEQEECopy(0);
+		licenseGrid[11][column] = tim.getTimeMagickCopy(2);
 		
-		licenseGrid[12][column] = eqee.getEQEECopy(0);
+		licenseGrid[12][column] = technicks.getTechnickCopy(28);
 		
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
 		licenseGrid[14][column] = eqee.getEQEECopy(0);
@@ -219,27 +219,27 @@ public class TimeBattlemage extends LicenseBoard {
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[2][column] = eqee.getEQEECopy(0);
+		licenseGrid[2][column] = eqee.getEQEECopy(5);
 		
-		licenseGrid[3][column] = eqee.getEQEECopy(0);
+		licenseGrid[3][column] = technicks.getTechnickCopy(18);
 		
-		licenseGrid[4][column] = eqee.getEQEECopy(0);
+		licenseGrid[4][column] = battleAug.getBattleLoreCopy(24);
 		
-		licenseGrid[5][column] = eqee.getEQEECopy(0);
+		licenseGrid[5][column] = armor.getArmorCopy(20);
 		
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[9][column] = eqee.getEQEECopy(0);
+		licenseGrid[9][column] = eqee.getEQEECopy(7);
 		
-		licenseGrid[10][column] = eqee.getEQEECopy(0);
+		licenseGrid[10][column] = armor.getArmorCopy(14);
 		
-		licenseGrid[11][column] = eqee.getEQEECopy(0);
+		licenseGrid[11][column] = tim.getTimeMagickCopy(1);
 		
-		licenseGrid[12][column] = eqee.getEQEECopy(0);
+		licenseGrid[12][column] = technicks.getTechnickCopy(27);
 		
-		licenseGrid[13][column] = eqee.getEQEECopy(0);
+		licenseGrid[13][column] = eqee.getEQEECopy(3);
 		
 		licenseGrid[14][column] = eqee.getEQEECopy(0);
 		licenseGrid[15][column] = eqee.getEQEECopy(0);
@@ -253,21 +253,21 @@ public class TimeBattlemage extends LicenseBoard {
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[3][column] = eqee.getEQEECopy(0);
-		licenseGrid[4][column] = eqee.getEQEECopy(0);
+		licenseGrid[3][column] = magAug.getMagickLoreCopy(25);
+		licenseGrid[4][column] = magAug.getMagickLoreCopy(7);
 		
-		licenseGrid[5][column] = eqee.getEQEECopy(0);
+		licenseGrid[5][column] = tim.getTimeMagickCopy(9);
 		
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[10][column] = eqee.getEQEECopy(0);
+		licenseGrid[10][column] = magAug.getMagickLoreCopy(3);
 		
-		licenseGrid[11][column] = eqee.getEQEECopy(0);
+		licenseGrid[11][column] = tim.getTimeMagickCopy(1);
 		
-		licenseGrid[12][column] = eqee.getEQEECopy(0);
+		licenseGrid[12][column] = technicks.getTechnickCopy(25);
 		
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
 		licenseGrid[14][column] = eqee.getEQEECopy(0);
@@ -278,29 +278,29 @@ public class TimeBattlemage extends LicenseBoard {
 		// ROW 9
 		column = 8;
 		
-		licenseGrid[0][column] = eqee.getEQEECopy(0);
+		licenseGrid[0][column] = battleAug.getBattleLoreCopy(9);
 		
-		licenseGrid[1][column] = eqee.getEQEECopy(0);
+		licenseGrid[1][column] = eqee.getEQEECopy(16);
 		
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[3][column] = eqee.getEQEECopy(0);
-		licenseGrid[4][column] = eqee.getEQEECopy(0);
+		licenseGrid[3][column] = itemAug.getItemAugmentCopy(3);
+		licenseGrid[4][column] = magAug.getMagickLoreCopy(19);
 		
-		licenseGrid[5][column] = eqee.getEQEECopy(0);
+		licenseGrid[5][column] = armor.getArmorCopy(21);
 		
-		licenseGrid[6][column] = eqee.getEQEECopy(0);
+		licenseGrid[6][column] = eqee.getEQEECopy(14);
 		
-		licenseGrid[7][column] = eqee.getEQEECopy(0);
-		licenseGrid[8][column] = eqee.getEQEECopy(0);
+		licenseGrid[7][column] = technicks.getTechnickCopy(21);
+		licenseGrid[8][column] = technicks.getTechnickCopy(23);
 		
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[10][column] = eqee.getEQEECopy(0);
+		licenseGrid[10][column] = armor.getArmorCopy(13);
 		
-		licenseGrid[11][column] = eqee.getEQEECopy(0);
+		licenseGrid[11][column] = eqee.getEQEECopy(1);
 		
-		licenseGrid[12][column] = eqee.getEQEECopy(0);
+		licenseGrid[12][column] = technicks.getTechnickCopy(24);
 		
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
 		licenseGrid[14][column] = eqee.getEQEECopy(0);
@@ -313,28 +313,28 @@ public class TimeBattlemage extends LicenseBoard {
 		
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[1][column] = eqee.getEQEECopy(0);
+		licenseGrid[1][column] = magAug.getMagickLoreCopy(8);
 		
-		licenseGrid[2][column] = eqee.getEQEECopy(0);
+		licenseGrid[2][column] = armor.getArmorCopy(24);
 		
-		licenseGrid[3][column] = eqee.getEQEECopy(0);
+		licenseGrid[3][column] = technicks.getTechnickCopy(15);
 		
-		licenseGrid[4][column] = eqee.getEQEECopy(0);
+		licenseGrid[4][column] = tim.getTimeMagickCopy(8);
 		
-		licenseGrid[5][column] = eqee.getEQEECopy(0);
+		licenseGrid[5][column] = armor.getArmorCopy(22);
 		
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[10][column] = eqee.getEQEECopy(0);
+		licenseGrid[10][column] = magAug.getMagickLoreCopy(24);
 		
-		licenseGrid[11][column] = eqee.getEQEECopy(0);
-		licenseGrid[12][column] = eqee.getEQEECopy(0);
+		licenseGrid[11][column] = accessories.getAccessoryCopy(0);
+		licenseGrid[12][column] = accessories.getAccessoryCopy(1);
 		
-		licenseGrid[13][column] = eqee.getEQEECopy(0);
-		licenseGrid[14][column] = eqee.getEQEECopy(0);
+		licenseGrid[13][column] = magAug.getMagickLoreCopy(21);
+		licenseGrid[14][column] = itemAug.getItemAugmentCopy(6);
 		
 		licenseGrid[15][column] = eqee.getEQEECopy(0);
 		licenseGrid[16][column] = eqee.getEQEECopy(0);
@@ -345,30 +345,30 @@ public class TimeBattlemage extends LicenseBoard {
 		
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[1][column] = eqee.getEQEECopy(0);
+		licenseGrid[1][column] = battleAug.getBattleLoreCopy(18);
 		
-		licenseGrid[2][column] = eqee.getEQEECopy(0);
+		licenseGrid[2][column] = tim.getTimeMagickCopy(9);
 		
-		licenseGrid[3][column] = eqee.getEQEECopy(0);
+		licenseGrid[3][column] = armor.getArmorCopy(23);
 		
-		licenseGrid[4][column] = eqee.getEQEECopy(0);
-		licenseGrid[5][column] = eqee.getEQEECopy(0);
+		licenseGrid[4][column] = magAug.getMagickLoreCopy(17);
+		licenseGrid[5][column] = battleAug.getBattleLoreCopy(17);
 		
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[7][column] = eqee.getEQEECopy(0);
+		licenseGrid[7][column] = healthAug.getHealthAugmentCopy(6);
 		
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[10][column] = eqee.getEQEECopy(0);
+		licenseGrid[10][column] = technicks.getTechnickCopy(26);
 		
-		licenseGrid[11][column] = eqee.getEQEECopy(0);
+		licenseGrid[11][column] = weapons3.getWeapon3Copy(15);
 		
-		licenseGrid[12][column] = eqee.getEQEECopy(0);
-		licenseGrid[13][column] = eqee.getEQEECopy(0);
+		licenseGrid[12][column] = accessories.getAccessoryCopy(2);
+		licenseGrid[13][column] = accessories.getAccessoryCopy(3);
 		
-		licenseGrid[14][column] = eqee.getEQEECopy(0);
+		licenseGrid[14][column] = weapons3.getWeapon3Copy(16);
 		
 		licenseGrid[15][column] = eqee.getEQEECopy(0);
 		licenseGrid[16][column] = eqee.getEQEECopy(0);
@@ -385,7 +385,7 @@ public class TimeBattlemage extends LicenseBoard {
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[7][column] = eqee.getEQEECopy(0);
+		licenseGrid[7][column] = eqee.getEQEECopy(17);
 		
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
@@ -393,7 +393,7 @@ public class TimeBattlemage extends LicenseBoard {
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
 		licenseGrid[12][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[13][column] = eqee.getEQEECopy(0);
+		licenseGrid[13][column] = accessories.getAccessoryCopy(4);
 		
 		licenseGrid[14][column] = eqee.getEQEECopy(0);
 		licenseGrid[15][column] = eqee.getEQEECopy(0);
@@ -406,18 +406,18 @@ public class TimeBattlemage extends LicenseBoard {
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[2][column] = eqee.getEQEECopy(0);
-		licenseGrid[3][column] = eqee.getEQEECopy(0);
-		licenseGrid[4][column] = eqee.getEQEECopy(0);
-		licenseGrid[5][column] = eqee.getEQEECopy(0);
-		licenseGrid[6][column] = eqee.getEQEECopy(0);
-		licenseGrid[7][column] = eqee.getEQEECopy(0);
-		licenseGrid[8][column] = eqee.getEQEECopy(0);
-		licenseGrid[9][column] = eqee.getEQEECopy(0);
-		licenseGrid[10][column] = eqee.getEQEECopy(0);
-		licenseGrid[11][column] = eqee.getEQEECopy(0);
-		licenseGrid[12][column] = eqee.getEQEECopy(0);
-		licenseGrid[13][column] = eqee.getEQEECopy(0);
+		licenseGrid[2][column] = accessories.getAccessoryCopy(20);
+		licenseGrid[3][column] = accessories.getAccessoryCopy(17);
+		licenseGrid[4][column] = accessories.getAccessoryCopy(15);
+		licenseGrid[5][column] = accessories.getAccessoryCopy(13);
+		licenseGrid[6][column] = accessories.getAccessoryCopy(12);
+		licenseGrid[7][column] = accessories.getAccessoryCopy(11);
+		licenseGrid[8][column] = accessories.getAccessoryCopy(10);
+		licenseGrid[9][column] = accessories.getAccessoryCopy(9);
+		licenseGrid[10][column] = accessories.getAccessoryCopy(8);
+		licenseGrid[11][column] = accessories.getAccessoryCopy(7);
+		licenseGrid[12][column] = accessories.getAccessoryCopy(6);
+		licenseGrid[13][column] = accessories.getAccessoryCopy(5);
 		
 		licenseGrid[14][column] = eqee.getEQEECopy(0);
 		licenseGrid[15][column] = eqee.getEQEECopy(0);
@@ -429,22 +429,22 @@ public class TimeBattlemage extends LicenseBoard {
 		
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[1][column] = eqee.getEQEECopy(0);
-		licenseGrid[2][column] = eqee.getEQEECopy(0);
-		licenseGrid[3][column] = eqee.getEQEECopy(0);
-		licenseGrid[4][column] = eqee.getEQEECopy(0);
-		licenseGrid[5][column] = eqee.getEQEECopy(0);
+		licenseGrid[1][column] = accessories.getAccessoryCopy(21);
+		licenseGrid[2][column] = accessories.getAccessoryCopy(20);
+		licenseGrid[3][column] = accessories.getAccessoryCopy(18);
+		licenseGrid[4][column] = accessories.getAccessoryCopy(16);
+		licenseGrid[5][column] = accessories.getAccessoryCopy(14);
 		
-		licenseGrid[6][column] = eqee.getEQEECopy(0);
+		licenseGrid[6][column] = weapons3.getWeapon3Copy(18);
 		
-		licenseGrid[7][column] = eqee.getEQEECopy(0);
-		licenseGrid[8][column] = eqee.getEQEECopy(0);
-		licenseGrid[9][column] = eqee.getEQEECopy(0);
-		licenseGrid[10][column] = eqee.getEQEECopy(0);
-		licenseGrid[11][column] = eqee.getEQEECopy(0);
-		licenseGrid[12][column] = eqee.getEQEECopy(0);
-		licenseGrid[13][column] = eqee.getEQEECopy(0);
-		licenseGrid[14][column] = eqee.getEQEECopy(0);
+		licenseGrid[7][column] = battleAug.getBattleLoreCopy(6);
+		licenseGrid[8][column] = battleAug.getBattleLoreCopy(5);
+		licenseGrid[9][column] = battleAug.getBattleLoreCopy(4);
+		licenseGrid[10][column] = battleAug.getBattleLoreCopy(3);
+		licenseGrid[11][column] = battleAug.getBattleLoreCopy(2);
+		licenseGrid[12][column] = battleAug.getBattleLoreCopy(1);
+		licenseGrid[13][column] = battleAug.getBattleLoreCopy(0);
+		licenseGrid[14][column] = healthAug.getHealthAugmentCopy(2);
 		
 		licenseGrid[15][column] = eqee.getEQEECopy(0);
 		licenseGrid[16][column] = eqee.getEQEECopy(0);
@@ -455,33 +455,33 @@ public class TimeBattlemage extends LicenseBoard {
 		
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[1][column] = eqee.getEQEECopy(0);
+		licenseGrid[1][column] = accessories.getAccessoryCopy(22);
 		
-		licenseGrid[2][column] = eqee.getEQEECopy(0);
-		licenseGrid[3][column] = eqee.getEQEECopy(0);
+		licenseGrid[2][column] = battleAug.getBattleLoreCopy(10);
+		licenseGrid[3][column] = battleAug.getBattleLoreCopy(7);
 		
-		licenseGrid[4][column] = eqee.getEQEECopy(0);
+		licenseGrid[4][column] = grm.getGreenMagickCopy(2);
 		
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[6][column] = eqee.getEQEECopy(0);
+		licenseGrid[6][column] = eqee.getEQEECopy(18);
 		
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[9][column] = eqee.getEQEECopy(0);
+		licenseGrid[9][column] = eqee.getEQEECopy(13);
 		
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[11][column] = eqee.getEQEECopy(0);
+		licenseGrid[11][column] = grm.getGreenMagickCopy(1);
 		
-		licenseGrid[12][column] = eqee.getEQEECopy(0);
+		licenseGrid[12][column] = weapons3.getWeapon3Copy(17);
 		
-		licenseGrid[13][column] = eqee.getEQEECopy(0);
+		licenseGrid[13][column] = grm.getGreenMagickCopy(0);
 		
-		licenseGrid[14][column] = eqee.getEQEECopy(0);
+		licenseGrid[14][column] = technicks.getTechnickCopy(5);
 		
-		licenseGrid[15][column] = eqee.getEQEECopy(0);
+		licenseGrid[15][column] = eqee.getEQEECopy(11);
 		
 		licenseGrid[16][column] = eqee.getEQEECopy(0);
 		licenseGrid[17][column] = eqee.getEQEECopy(0);
@@ -492,15 +492,15 @@ public class TimeBattlemage extends LicenseBoard {
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[2][column] = eqee.getEQEECopy(0);
+		licenseGrid[2][column] = eqee.getEQEECopy(19);
 		
 		licenseGrid[3][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[4][column] = eqee.getEQEECopy(0);
+		licenseGrid[4][column] = eqee.getEQEECopy(6);
 		
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[6][column] = eqee.getEQEECopy(0);
+		licenseGrid[6][column] = weapons1.getWeapon1Copy(14);
 		
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
@@ -520,13 +520,13 @@ public class TimeBattlemage extends LicenseBoard {
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[2][column] = eqee.getEQEECopy(0);
+		licenseGrid[2][column] = weapons1.getWeapon1Copy(16);
 		
 		licenseGrid[3][column] = eqee.getEQEECopy(0);
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[6][column] = eqee.getEQEECopy(0);
+		licenseGrid[6][column] = weapons1.getWeapon1Copy(15);
 		
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
