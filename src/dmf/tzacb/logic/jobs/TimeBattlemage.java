@@ -35,11 +35,17 @@ public class TimeBattlemage extends LicenseBoard {
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
 		licenseGrid[3][column] = eqee.getEQEECopy(0);
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
 		licenseGrid[12][column] = eqee.getEQEECopy(0);
@@ -57,11 +63,17 @@ public class TimeBattlemage extends LicenseBoard {
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
 		licenseGrid[3][column] = eqee.getEQEECopy(0);
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
 		licenseGrid[12][column] = eqee.getEQEECopy(0);
@@ -77,16 +89,23 @@ public class TimeBattlemage extends LicenseBoard {
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[3][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[12][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
 		licenseGrid[14][column] = eqee.getEQEECopy(0);
 		licenseGrid[15][column] = eqee.getEQEECopy(0);
@@ -97,18 +116,31 @@ public class TimeBattlemage extends LicenseBoard {
 		column = 3;
 		
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[3][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[12][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
 		licenseGrid[14][column] = eqee.getEQEECopy(0);
 		licenseGrid[15][column] = eqee.getEQEECopy(0);
@@ -121,18 +153,30 @@ public class TimeBattlemage extends LicenseBoard {
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[3][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[12][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[14][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[15][column] = eqee.getEQEECopy(0);
 		licenseGrid[16][column] = eqee.getEQEECopy(0);
 		licenseGrid[17][column] = eqee.getEQEECopy(0);
@@ -143,16 +187,26 @@ public class TimeBattlemage extends LicenseBoard {
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[3][column] = eqee.getEQEECopy(0);
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[12][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
 		licenseGrid[14][column] = eqee.getEQEECopy(0);
 		licenseGrid[15][column] = eqee.getEQEECopy(0);
@@ -164,18 +218,29 @@ public class TimeBattlemage extends LicenseBoard {
 		
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[3][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[12][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[14][column] = eqee.getEQEECopy(0);
 		licenseGrid[15][column] = eqee.getEQEECopy(0);
 		licenseGrid[16][column] = eqee.getEQEECopy(0);
@@ -187,16 +252,23 @@ public class TimeBattlemage extends LicenseBoard {
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[3][column] = eqee.getEQEECopy(0);
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[12][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
 		licenseGrid[14][column] = eqee.getEQEECopy(0);
 		licenseGrid[15][column] = eqee.getEQEECopy(0);
@@ -207,18 +279,29 @@ public class TimeBattlemage extends LicenseBoard {
 		column = 8;
 		
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[3][column] = eqee.getEQEECopy(0);
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[12][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
 		licenseGrid[14][column] = eqee.getEQEECopy(0);
 		licenseGrid[15][column] = eqee.getEQEECopy(0);
@@ -229,20 +312,30 @@ public class TimeBattlemage extends LicenseBoard {
 		column = 9;
 		
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[3][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
 		licenseGrid[12][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
 		licenseGrid[14][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[15][column] = eqee.getEQEECopy(0);
 		licenseGrid[16][column] = eqee.getEQEECopy(0);
 		licenseGrid[17][column] = eqee.getEQEECopy(0);
@@ -251,20 +344,32 @@ public class TimeBattlemage extends LicenseBoard {
 		column = 10;
 		
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[3][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[12][column] = eqee.getEQEECopy(0);
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[14][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[15][column] = eqee.getEQEECopy(0);
 		licenseGrid[16][column] = eqee.getEQEECopy(0);
 		licenseGrid[17][column] = eqee.getEQEECopy(0);
@@ -279,13 +384,17 @@ public class TimeBattlemage extends LicenseBoard {
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
 		licenseGrid[12][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[14][column] = eqee.getEQEECopy(0);
 		licenseGrid[15][column] = eqee.getEQEECopy(0);
 		licenseGrid[16][column] = eqee.getEQEECopy(0);
@@ -296,6 +405,7 @@ public class TimeBattlemage extends LicenseBoard {
 		
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
 		licenseGrid[3][column] = eqee.getEQEECopy(0);
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
@@ -308,6 +418,7 @@ public class TimeBattlemage extends LicenseBoard {
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
 		licenseGrid[12][column] = eqee.getEQEECopy(0);
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[14][column] = eqee.getEQEECopy(0);
 		licenseGrid[15][column] = eqee.getEQEECopy(0);
 		licenseGrid[16][column] = eqee.getEQEECopy(0);
@@ -317,12 +428,15 @@ public class TimeBattlemage extends LicenseBoard {
 		column = 13;
 		
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
 		licenseGrid[3][column] = eqee.getEQEECopy(0);
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
@@ -331,6 +445,7 @@ public class TimeBattlemage extends LicenseBoard {
 		licenseGrid[12][column] = eqee.getEQEECopy(0);
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
 		licenseGrid[14][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[15][column] = eqee.getEQEECopy(0);
 		licenseGrid[16][column] = eqee.getEQEECopy(0);
 		licenseGrid[17][column] = eqee.getEQEECopy(0);
@@ -339,21 +454,35 @@ public class TimeBattlemage extends LicenseBoard {
 		column = 14;
 		
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
 		licenseGrid[3][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[12][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[14][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[15][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[16][column] = eqee.getEQEECopy(0);
 		licenseGrid[17][column] = eqee.getEQEECopy(0);
 		
@@ -362,11 +491,17 @@ public class TimeBattlemage extends LicenseBoard {
 		
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[3][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
@@ -384,11 +519,15 @@ public class TimeBattlemage extends LicenseBoard {
 		
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[3][column] = eqee.getEQEECopy(0);
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
+		
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
