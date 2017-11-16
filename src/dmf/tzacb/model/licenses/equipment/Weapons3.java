@@ -23,7 +23,7 @@ public class Weapons3 {
 		// Daggers
 		wpn3Licenses[7]  = new License("Ninja Swords 1",         100, LicenseType.Weapons3, "Allows character to equip Ashura, Sakura-saezuri, Kagenui, and Orochi.");
 		wpn3Licenses[8]  = new License("Ninja Swords 2",         120, LicenseType.Weapons3, "Allows character to equip Iga Blade.");
-		wpn3Licenses[9] = new License("Ninja Swords 3",          120, LicenseType.Weapons3, "Allows character to equip Koga Blade.");
+		wpn3Licenses[9]  = new License("Ninja Swords 3",         120, LicenseType.Weapons3, "Allows character to equip Koga Blade.");
 		wpn3Licenses[10] = new License("Yagyu Darkblade & Mesa", 180, LicenseType.Weapons3, "Allows character to equip Yagyu Darkblade and Mesa.");
 		
 		// Daggers
