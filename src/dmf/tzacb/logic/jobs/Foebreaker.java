@@ -60,18 +60,18 @@ public class Foebreaker extends LicenseBoard {
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[3][column] = eqee.getEQEECopy(13);
+		licenseGrid[3][column] = eqee.getEQEE(13);
 		
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[5][column] = eqee.getEQEECopy(12);
+		licenseGrid[5][column] = eqee.getEQEE(12);
 		
-		licenseGrid[6][column] = eqee.getEQEECopy(4);
+		licenseGrid[6][column] = eqee.getEQEE(4);
 		
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[9][column] = eqee.getEQEECopy(3);
+		licenseGrid[9][column] = eqee.getEQEE(3);
 		
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
@@ -117,7 +117,7 @@ public class Foebreaker extends LicenseBoard {
 		
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[1][column] = eqee.getEQEECopy(11);
+		licenseGrid[1][column] = eqee.getEQEE(11);
 		
 		licenseGrid[2][column] = technicks.getTechnickCopy(32);
 		licenseGrid[3][column] = technicks.getTechnickCopy(31);
@@ -214,7 +214,7 @@ public class Foebreaker extends LicenseBoard {
 		
 		licenseGrid[9][column] = accessories.getAccessoryCopy(2);
 		
-		licenseGrid[10][column] = eqee.getEQEECopy(7);
+		licenseGrid[10][column] = eqee.getEQEE(7);
 		
 		licenseGrid[11][column] = technicks.getTechnickCopy(18);
 		
@@ -286,7 +286,7 @@ public class Foebreaker extends LicenseBoard {
 		licenseGrid[12][column] = eqee.getEQEECopy(0);
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[14][column] = eqee.getEQEECopy(18);
+		licenseGrid[14][column] = eqee.getEQEE(18);
 		
 		licenseGrid[15][column] = eqee.getEQEECopy(0);
 		licenseGrid[16][column] = eqee.getEQEECopy(0);
@@ -297,7 +297,7 @@ public class Foebreaker extends LicenseBoard {
 		
 		licenseGrid[0][column] = magAug.getMagickLoreCopy(0);
 		
-		licenseGrid[1][column] = eqee.getEQEECopy(15);
+		licenseGrid[1][column] = eqee.getEQEE(15);
 		
 		licenseGrid[2][column] = armor.getArmorCopy(23);
 		
@@ -322,7 +322,7 @@ public class Foebreaker extends LicenseBoard {
 		licenseGrid[13][column] = accessories.getAccessoryCopy(17);
 		licenseGrid[14][column] = accessories.getAccessoryCopy(18);
 		
-		licenseGrid[15][column] = eqee.getEQEECopy(19);
+		licenseGrid[15][column] = eqee.getEQEE(19);
 		
 		licenseGrid[16][column] = eqee.getEQEECopy(0);
 		licenseGrid[17][column] = eqee.getEQEECopy(0);
@@ -350,7 +350,7 @@ public class Foebreaker extends LicenseBoard {
 		
 		licenseGrid[9][column] = accessories.getAccessoryCopy(6);
 		
-		licenseGrid[10][column] = eqee.getEQEECopy(8);
+		licenseGrid[10][column] = eqee.getEQEE(8);
 		
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
 		
@@ -405,7 +405,7 @@ public class Foebreaker extends LicenseBoard {
 		
 		licenseGrid[0][column] = magAug.getMagickLoreCopy(3);
 		
-		licenseGrid[1][column] = eqee.getEQEECopy(14);
+		licenseGrid[1][column] = eqee.getEQEE(14);
 		
 		licenseGrid[2][column] = battleAug.getBattleLoreCopy(16);
 		
@@ -447,8 +447,8 @@ public class Foebreaker extends LicenseBoard {
 		
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[5][column] = eqee.getEQEECopy(12);
-		licenseGrid[6][column] = eqee.getEQEECopy(11);
+		licenseGrid[5][column] = weapons3.getWeapon3Copy(12);
+		licenseGrid[6][column] = weapons3.getWeapon3Copy(11);
 		
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
 		
@@ -478,8 +478,8 @@ public class Foebreaker extends LicenseBoard {
 		
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[5][column] = eqee.getEQEECopy(14);
-		licenseGrid[6][column] = eqee.getEQEECopy(13);
+		licenseGrid[5][column] = weapons3.getWeapon3Copy(14);
+		licenseGrid[6][column] = weapons3.getWeapon3Copy(13);
 		
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
 		
@@ -491,7 +491,7 @@ public class Foebreaker extends LicenseBoard {
 		licenseGrid[13][column] = battleAug.getBattleLoreCopy(6);
 		licenseGrid[14][column] = battleAug.getBattleLoreCopy(7);
 		
-		licenseGrid[15][column] = eqee.getEQEECopy(17);
+		licenseGrid[15][column] = eqee.getEQEE(17);
 		
 		licenseGrid[16][column] = eqee.getEQEECopy(0);
 		licenseGrid[17][column] = eqee.getEQEECopy(0);
@@ -503,24 +503,24 @@ public class Foebreaker extends LicenseBoard {
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[3][column] = eqee.getEQEECopy(6);
+		licenseGrid[3][column] = eqee.getEQEE(6);
 		
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[6][column] = eqee.getEQEECopy(10);
+		licenseGrid[6][column] = eqee.getEQEE(10);
 		
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[9][column] = eqee.getEQEECopy(9);
+		licenseGrid[9][column] = eqee.getEQEE(9);
 		
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
 		licenseGrid[12][column] = eqee.getEQEECopy(0);
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[14][column] = eqee.getEQEECopy(16);
+		licenseGrid[14][column] = eqee.getEQEE(16);
 		
 		licenseGrid[15][column] = eqee.getEQEECopy(0);
 		licenseGrid[16][column] = eqee.getEQEECopy(0);

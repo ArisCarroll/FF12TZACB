@@ -33,7 +33,7 @@ public class Uhlan extends LicenseBoard {
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[2][column] = eqee.getEQEECopy(14);
+		licenseGrid[2][column] = eqee.getEQEE(14);
 		
 		licenseGrid[3][column] = eqee.getEQEECopy(0);
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
@@ -42,7 +42,7 @@ public class Uhlan extends LicenseBoard {
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[9][column] = eqee.getEQEECopy(6);
+		licenseGrid[9][column] = eqee.getEQEE(6);
 		
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
@@ -99,14 +99,14 @@ public class Uhlan extends LicenseBoard {
 		
 		licenseGrid[6][column] = blm.getBlackMagickCopy(4);
 		
-		licenseGrid[7][column] = eqee.getEQEECopy(5);
+		licenseGrid[7][column] = eqee.getEQEE(5);
 		
 		licenseGrid[8][column] = battleAug.getBattleLoreCopy(17);
 		
 		licenseGrid[9][column] = accessories.getAccessoryCopy(18);
 		licenseGrid[10][column] = accessories.getAccessoryCopy(21);
 		
-		licenseGrid[11][column] = eqee.getEQEECopy(19);
+		licenseGrid[11][column] = eqee.getEQEE(19);
 		
 		licenseGrid[12][column] = eqee.getEQEECopy(0);
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
@@ -154,7 +154,7 @@ public class Uhlan extends LicenseBoard {
 		
 		licenseGrid[4][column] = magAug.getMagickLoreCopy(0);
 		
-		licenseGrid[5][column] = eqee.getEQEECopy(11);
+		licenseGrid[5][column] = eqee.getEQEE(11);
 		
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
@@ -165,7 +165,7 @@ public class Uhlan extends LicenseBoard {
 		
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[11][column] = eqee.getEQEECopy(18);
+		licenseGrid[11][column] = eqee.getEQEE(18);
 		
 		licenseGrid[12][column] = technicks.getTechnickCopy(22);
 		
@@ -189,7 +189,7 @@ public class Uhlan extends LicenseBoard {
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[7][column] = eqee.getEQEECopy(15);
+		licenseGrid[7][column] = eqee.getEQEE(15);
 		
 		licenseGrid[8][column] = healthAug.getHealthAugmentCopy(6);
 		
@@ -209,7 +209,7 @@ public class Uhlan extends LicenseBoard {
 		
 		licenseGrid[0][column] = battleAug.getBattleLoreCopy(12);
 		
-		licenseGrid[1][column] = eqee.getEQEECopy(10);
+		licenseGrid[1][column] = eqee.getEQEE(10);
 		
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
 		
@@ -264,7 +264,7 @@ public class Uhlan extends LicenseBoard {
 		// ROW 9
 		column = 8;
 		
-		licenseGrid[0][column] = eqee.getEQEECopy(3);
+		licenseGrid[0][column] = eqee.getEQEE(3);
 		
 		licenseGrid[1][column] = itemAug.getItemAugmentCopy(6);
 		
@@ -282,7 +282,7 @@ public class Uhlan extends LicenseBoard {
 		
 		licenseGrid[11][column] = accessories.getAccessoryCopy(15);
 		
-		licenseGrid[12][column] = eqee.getEQEECopy(17);
+		licenseGrid[12][column] = eqee.getEQEE(17);
 		
 		licenseGrid[13][column] = blm.getBlackMagickCopy(6);
 		
@@ -304,7 +304,7 @@ public class Uhlan extends LicenseBoard {
 		
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[5][column] = eqee.getEQEECopy(7);
+		licenseGrid[5][column] = eqee.getEQEE(7);
 		
 		licenseGrid[6][column] = eqee.getEQEECopy(2);
 		
@@ -371,7 +371,7 @@ public class Uhlan extends LicenseBoard {
 		
 		licenseGrid[7][column] = technicks.getTechnickCopy(19);
 		
-		licenseGrid[8][column] = eqee.getEQEECopy(12);
+		licenseGrid[8][column] = eqee.getEQEE(12);
 		
 		licenseGrid[9][column] = technicks.getTechnickCopy(9);
 		
@@ -406,7 +406,7 @@ public class Uhlan extends LicenseBoard {
 		licenseGrid[10][column] = battleAug.getBattleLoreCopy(10);
 		licenseGrid[11][column] = magAug.getMagickLoreCopy(1);
 		
-		licenseGrid[12][column] = eqee.getEQEECopy(16);
+		licenseGrid[12][column] = eqee.getEQEE(16);
 		
 		licenseGrid[13][column] = itemAug.getItemAugmentCopy(2);
 		
@@ -428,7 +428,7 @@ public class Uhlan extends LicenseBoard {
 		licenseGrid[4][column] = technicks.getTechnickCopy(2);
 		licenseGrid[5][column] = technicks.getTechnickCopy(3);
 		
-		licenseGrid[6][column] = eqee.getEQEECopy(4);
+		licenseGrid[6][column] = eqee.getEQEE(4);
 		
 		licenseGrid[7][column] = technicks.getTechnickCopy(31);
 		licenseGrid[8][column] = technicks.getTechnickCopy(32);
@@ -483,7 +483,7 @@ public class Uhlan extends LicenseBoard {
 		
 		licenseGrid[5][column] = technicks.getTechnickCopy(14);
 		
-		licenseGrid[6][column] = eqee.getEQEECopy(9);
+		licenseGrid[6][column] = eqee.getEQEE(9);
 		
 		licenseGrid[7][column] = itemAug.getItemAugmentCopy(1);
 		licenseGrid[8][column] = battleAug.getBattleLoreCopy(7);
@@ -506,7 +506,7 @@ public class Uhlan extends LicenseBoard {
 		
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[2][column] = eqee.getEQEECopy(8);
+		licenseGrid[2][column] = eqee.getEQEE(8);
 		
 		licenseGrid[3][column] = eqee.getEQEECopy(0);
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
@@ -516,7 +516,7 @@ public class Uhlan extends LicenseBoard {
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[10][column] = eqee.getEQEECopy(13);
+		licenseGrid[10][column] = eqee.getEQEE(13);
 		
 		licenseGrid[11][column] = technicks.getTechnickCopy(20);
 		

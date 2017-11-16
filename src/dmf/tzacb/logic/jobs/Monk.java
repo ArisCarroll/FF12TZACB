@@ -34,14 +34,14 @@ public class Monk extends LicenseBoard {
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[3][column] = eqee.getEQEECopy(13);
+		licenseGrid[3][column] = eqee.getEQEE(13);
 		
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[8][column] = eqee.getEQEECopy(7);
+		licenseGrid[8][column] = eqee.getEQEE(7);
 		
 		licenseGrid[9][column] = eqee.getEQEECopy(2);
 		
@@ -99,7 +99,7 @@ public class Monk extends LicenseBoard {
 		licenseGrid[8][column] = technicks.getTechnickCopy(25);
 		licenseGrid[9][column] = technicks.getTechnickCopy(26);
 		
-		licenseGrid[10][column] = eqee.getEQEECopy(3);
+		licenseGrid[10][column] = eqee.getEQEE(3);
 		
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
 		licenseGrid[12][column] = eqee.getEQEECopy(0);
@@ -114,7 +114,7 @@ public class Monk extends LicenseBoard {
 		
 		licenseGrid[0][column] = technicks.getTechnickCopy(17);
 		
-		licenseGrid[1][column] = eqee.getEQEECopy(9);
+		licenseGrid[1][column] = eqee.getEQEE(9);
 		
 		licenseGrid[2][column] = battleAug.getBattleLoreCopy(1);
 		
@@ -163,7 +163,7 @@ public class Monk extends LicenseBoard {
 		
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[11][column] = eqee.getEQEECopy(10);
+		licenseGrid[11][column] = eqee.getEQEE(10);
 		
 		licenseGrid[12][column] = eqee.getEQEECopy(0);
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
@@ -179,7 +179,7 @@ public class Monk extends LicenseBoard {
 		
 		licenseGrid[0][column] = whm.getWhiteMagickCopy(8);
 		
-		licenseGrid[1][column] = eqee.getEQEECopy(4);
+		licenseGrid[1][column] = eqee.getEQEE(4);
 		
 		licenseGrid[2][column] = technicks.getTechnickCopy(5);
 		
@@ -204,7 +204,7 @@ public class Monk extends LicenseBoard {
 		licenseGrid[12][column] = technicks.getTechnickCopy(30);
 		licenseGrid[13][column] = technicks.getTechnickCopy(31);
 		
-		licenseGrid[14][column] = eqee.getEQEECopy(6);
+		licenseGrid[14][column] = eqee.getEQEE(6);
 		
 		licenseGrid[15][column] = eqee.getEQEECopy(0);
 		licenseGrid[16][column] = eqee.getEQEECopy(0);
@@ -237,7 +237,7 @@ public class Monk extends LicenseBoard {
 		
 		licenseGrid[13][column] = technicks.getTechnickCopy(32);
 		
-		licenseGrid[14][column] = eqee.getEQEECopy(14);
+		licenseGrid[14][column] = eqee.getEQEE(14);
 		
 		licenseGrid[15][column] = technicks.getTechnickCopy(7);
 		
@@ -249,7 +249,7 @@ public class Monk extends LicenseBoard {
 		
 		licenseGrid[0][column] = whm.getWhiteMagickCopy(3);
 		
-		licenseGrid[1][column] = eqee.getEQEECopy(12);
+		licenseGrid[1][column] = eqee.getEQEE(12);
 		
 		licenseGrid[2][column] = magAug.getMagickLoreCopy(23);
 		
@@ -303,12 +303,12 @@ public class Monk extends LicenseBoard {
 		
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[11][column] = eqee.getEQEECopy(5);
+		licenseGrid[11][column] = eqee.getEQEE(5);
 		
 		licenseGrid[12][column] = healthAug.getHealthAugmentCopy(9);
 		licenseGrid[13][column] = battleAug.getBattleLoreCopy(16);
 		
-		licenseGrid[14][column] = eqee.getEQEECopy(17);
+		licenseGrid[14][column] = eqee.getEQEE(17);
 		
 		licenseGrid[15][column] = whm.getWhiteMagickCopy(10);
 		
@@ -320,7 +320,7 @@ public class Monk extends LicenseBoard {
 		
 		licenseGrid[0][column] = itemAug.getItemAugmentCopy(2);
 		
-		licenseGrid[1][column] = eqee.getEQEECopy(11);
+		licenseGrid[1][column] = eqee.getEQEE(11);
 		
 		licenseGrid[2][column] = battleAug.getBattleLoreCopy(7);
 		
@@ -337,7 +337,7 @@ public class Monk extends LicenseBoard {
 		licenseGrid[8][column] = accessories.getAccessoryCopy(9);
 		licenseGrid[9][column] = accessories.getAccessoryCopy(10);
 		
-		licenseGrid[10][column] = eqee.getEQEECopy(8);
+		licenseGrid[10][column] = eqee.getEQEE(8);
 		
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
 		
@@ -411,7 +411,7 @@ public class Monk extends LicenseBoard {
 		
 		licenseGrid[14][column] = battleAug.getBattleLoreCopy(12);
 		
-		licenseGrid[15][column] = eqee.getEQEECopy(18);
+		licenseGrid[15][column] = eqee.getEQEE(18);
 		
 		licenseGrid[16][column] = battleAug.getBattleLoreCopy(17);
 		
@@ -461,13 +461,13 @@ public class Monk extends LicenseBoard {
 		licenseGrid[3][column] = eqee.getEQEECopy(0);
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[5][column] = eqee.getEQEECopy(15);
+		licenseGrid[5][column] = eqee.getEQEE(15);
 		
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[9][column] = eqee.getEQEECopy(16);
+		licenseGrid[9][column] = eqee.getEQEE(16);
 		
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
@@ -501,7 +501,7 @@ public class Monk extends LicenseBoard {
 		
 		licenseGrid[11][column] = whm.getWhiteMagickCopy(12);
 		
-		licenseGrid[12][column] = eqee.getEQEECopy(19);
+		licenseGrid[12][column] = eqee.getEQEE(19);
 		
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
 		licenseGrid[14][column] = eqee.getEQEECopy(0);

@@ -33,6 +33,11 @@ public class EspersQuickEssentials {
 		eqeeLicenses[18] = new License("Ultima",       115, LicenseType.Summon,      "Unlocks Ultima.");
 		eqeeLicenses[19] = new License("Zodiark",      200, LicenseType.Summon,      "Unlocks Zodiark.");
 	}
+	
+	public License getEQEE(int index) {
+		
+		return eqeeLicenses[index];
+	}
 		
 	public License getEQEECopy(int index) {
 		String		 	name 		= eqeeLicenses[index].getName();

@@ -71,7 +71,7 @@ public class Bushi extends LicenseBoard {
 		
 		licenseGrid[10][column] = weapons1.getWeapon1Copy(24);
 		
-		licenseGrid[11][column] = eqee.getEQEECopy(9);
+		licenseGrid[11][column] = eqee.getEQEE(9);
 		
 		licenseGrid[12][column] = magAug.getMagickLoreCopy(4);
 		licenseGrid[13][column] = magAug.getMagickLoreCopy(19);
@@ -95,7 +95,7 @@ public class Bushi extends LicenseBoard {
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[8][column] = eqee.getEQEECopy(0);
+		licenseGrid[8][column] = eqee.getEQEE(10);
 		
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
@@ -105,7 +105,7 @@ public class Bushi extends LicenseBoard {
 		
 		licenseGrid[13][column] = weapons1.getWeapon1Copy(47);
 		
-		licenseGrid[14][column] = eqee.getEQEECopy(5);
+		licenseGrid[14][column] = eqee.getEQEE(5);
 		
 		licenseGrid[15][column] = healthAug.getHealthAugmentCopy(9);
 		
@@ -146,7 +146,7 @@ public class Bushi extends LicenseBoard {
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[6][column] = eqee.getEQEECopy(5);
+		licenseGrid[6][column] = eqee.getEQEECopy(2);
 		
 		licenseGrid[7][column] = healthAug.getHealthAugmentCopy(4);
 		licenseGrid[8][column] = magAug.getMagickLoreCopy(21);
@@ -185,11 +185,11 @@ public class Bushi extends LicenseBoard {
 		
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[10][column] = eqee.getEQEECopy(8);
+		licenseGrid[10][column] = eqee.getEQEE(8);
 		
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[12][column] = eqee.getEQEECopy(12);
+		licenseGrid[12][column] = eqee.getEQEE(12);
 		
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
 		licenseGrid[14][column] = eqee.getEQEECopy(0);
@@ -262,7 +262,7 @@ public class Bushi extends LicenseBoard {
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[3][column] = eqee.getEQEECopy(11);
+		licenseGrid[3][column] = eqee.getEQEE(11);
 		
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
@@ -312,7 +312,7 @@ public class Bushi extends LicenseBoard {
 		
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[14][column] = eqee.getEQEECopy(4);
+		licenseGrid[14][column] = eqee.getEQEE(4);
 		
 		licenseGrid[15][column] = eqee.getEQEECopy(0);
 		licenseGrid[16][column] = eqee.getEQEECopy(0);
@@ -334,7 +334,7 @@ public class Bushi extends LicenseBoard {
 		
 		licenseGrid[8][column] = magAug.getMagickLoreCopy(24);
 		
-		licenseGrid[9][column] = eqee.getEQEECopy(3);
+		licenseGrid[9][column] = eqee.getEQEE(3);
 		
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
 		
@@ -354,7 +354,7 @@ public class Bushi extends LicenseBoard {
 		
 		licenseGrid[0][column] = healthAug.getHealthAugmentCopy(11);
 		
-		licenseGrid[1][column] = eqee.getEQEECopy(15);
+		licenseGrid[1][column] = eqee.getEQEE(15);
 		
 		licenseGrid[2][column] = magAug.getMagickLoreCopy(9);
 		
@@ -389,16 +389,16 @@ public class Bushi extends LicenseBoard {
 		
 		licenseGrid[3][column] = armor.getArmorCopy(12);
 		
-		licenseGrid[4][column] = eqee.getEQEECopy(13);
+		licenseGrid[4][column] = eqee.getEQEE(13);
 		
 		licenseGrid[5][column] = technicks.getTechnickCopy(15);
 		
-		licenseGrid[6][column] = eqee.getEQEECopy(18);
+		licenseGrid[6][column] = eqee.getEQEE(18);
 		
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[9][column] = eqee.getEQEECopy(16);
+		licenseGrid[9][column] = eqee.getEQEE(16);
 		
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
 		
@@ -444,7 +444,7 @@ public class Bushi extends LicenseBoard {
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
 		licenseGrid[1][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[2][column] = eqee.getEQEECopy(14);
+		licenseGrid[2][column] = eqee.getEQEE(14);
 		
 		licenseGrid[3][column] = eqee.getEQEECopy(0);
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
@@ -477,7 +477,7 @@ public class Bushi extends LicenseBoard {
 		
 		licenseGrid[4][column] = healthAug.getHealthAugmentCopy(10);
 		
-		licenseGrid[5][column] = eqee.getEQEECopy(6);
+		licenseGrid[5][column] = eqee.getEQEE(6);
 		
 		licenseGrid[6][column] = battleAug.getBattleLoreCopy(1);
 		licenseGrid[7][column] = battleAug.getBattleLoreCopy(2);
@@ -506,7 +506,7 @@ public class Bushi extends LicenseBoard {
 		licenseGrid[6][column] = battleAug.getBattleLoreCopy(6);
 		licenseGrid[7][column] = battleAug.getBattleLoreCopy(3);
 		
-		licenseGrid[8][column] = eqee.getEQEECopy(17);
+		licenseGrid[8][column] = eqee.getEQEE(17);
 		
 		licenseGrid[9][column] = battleAug.getBattleLoreCopy(25);
 		
@@ -529,7 +529,7 @@ public class Bushi extends LicenseBoard {
 		licenseGrid[3][column] = armor.getArmorCopy(22);
 		licenseGrid[4][column] = armor.getArmorCopy(21);
 		
-		licenseGrid[5][column] = eqee.getEQEECopy(19);
+		licenseGrid[5][column] = eqee.getEQEE(19);
 		
 		licenseGrid[6][column] = battleAug.getBattleLoreCopy(18);
 		licenseGrid[7][column] = battleAug.getBattleLoreCopy(7);

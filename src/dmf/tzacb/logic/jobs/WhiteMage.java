@@ -58,7 +58,7 @@ public class WhiteMage extends LicenseBoard {
 		licenseGrid[3][column] = eqee.getEQEECopy(0);
 		licenseGrid[4][column] = eqee.getEQEECopy(0);
 
-		licenseGrid[5][column] = eqee.getEQEECopy(13);
+		licenseGrid[5][column] = eqee.getEQEE(13);
 
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
@@ -66,11 +66,11 @@ public class WhiteMage extends LicenseBoard {
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
 
-		licenseGrid[11][column] = eqee.getEQEECopy(11);
+		licenseGrid[11][column] = eqee.getEQEE(11);
 		
 		licenseGrid[12][column] = eqee.getEQEECopy(0);
 
-		licenseGrid[13][column] = eqee.getEQEECopy(6);
+		licenseGrid[13][column] = eqee.getEQEE(6);
 		
 		licenseGrid[14][column] = eqee.getEQEECopy(0);
 		licenseGrid[15][column] = eqee.getEQEECopy(0);
@@ -112,7 +112,7 @@ public class WhiteMage extends LicenseBoard {
 		
 		licenseGrid[0][column] = battleAug.getBattleLoreCopy(6);
 		
-		licenseGrid[1][column] = eqee.getEQEECopy(14);
+		licenseGrid[1][column] = eqee.getEQEE(14);
 		
 		licenseGrid[2][column] = armor.getArmorCopy(12);
 		
@@ -126,7 +126,7 @@ public class WhiteMage extends LicenseBoard {
 		
 		licenseGrid[7][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[8][column] = eqee.getEQEECopy(4);
+		licenseGrid[8][column] = eqee.getEQEE(4);
 		
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
 		
@@ -139,7 +139,7 @@ public class WhiteMage extends LicenseBoard {
 		
 		licenseGrid[14][column] = weapons2.getWeapon2Copy(4);
 		
-		licenseGrid[15][column] = eqee.getEQEECopy(17);
+		licenseGrid[15][column] = eqee.getEQEE(17);
 		
 		licenseGrid[16][column] = healthAug.getHealthAugmentCopy(7);
 		
@@ -241,7 +241,7 @@ public class WhiteMage extends LicenseBoard {
 		
 		licenseGrid[14][column] = magAug.getMagickLoreCopy(13);
 		
-		licenseGrid[15][column] = eqee.getEQEECopy(18);
+		licenseGrid[15][column] = eqee.getEQEE(18);
 		
 		licenseGrid[16][column] = eqee.getEQEECopy(0);
 		licenseGrid[17][column] = eqee.getEQEECopy(0);
@@ -251,7 +251,7 @@ public class WhiteMage extends LicenseBoard {
 		
 		licenseGrid[0][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[1][column] = eqee.getEQEECopy(19);
+		licenseGrid[1][column] = eqee.getEQEE(19);
 		
 		licenseGrid[2][column] = whm.getWhiteMagickCopy(12);
 		
@@ -261,7 +261,7 @@ public class WhiteMage extends LicenseBoard {
 		
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[6][column] = eqee.getEQEECopy(8);
+		licenseGrid[6][column] = eqee.getEQEE(8);
 		
 		licenseGrid[7][column] = armor.getArmorCopy(3);
 		
@@ -269,7 +269,7 @@ public class WhiteMage extends LicenseBoard {
 		
 		licenseGrid[9][column] = weapons2.getWeapon2Copy(1);
 		
-		licenseGrid[10][column] = eqee.getEQEECopy(7);
+		licenseGrid[10][column] = eqee.getEQEE(7);
 		
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
 		
@@ -293,7 +293,7 @@ public class WhiteMage extends LicenseBoard {
 		licenseGrid[2][column] = eqee.getEQEECopy(0);
 		licenseGrid[3][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[4][column] = eqee.getEQEECopy(16);
+		licenseGrid[4][column] = eqee.getEQEE(16);
 		
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
@@ -307,7 +307,7 @@ public class WhiteMage extends LicenseBoard {
 		licenseGrid[10][column] = eqee.getEQEECopy(0);
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[12][column] = eqee.getEQEECopy(15);
+		licenseGrid[12][column] = eqee.getEQEE(15);
 		
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
 		licenseGrid[14][column] = eqee.getEQEECopy(0);
@@ -408,7 +408,7 @@ public class WhiteMage extends LicenseBoard {
 		
 		licenseGrid[4][column] = healthAug.getHealthAugmentCopy(3);
 		
-		licenseGrid[5][column] = eqee.getEQEECopy(3);
+		licenseGrid[5][column] = eqee.getEQEE(3);
 		
 		licenseGrid[6][column] = technicks.getTechnickCopy(27);
 		
@@ -465,7 +465,7 @@ public class WhiteMage extends LicenseBoard {
 		
 		licenseGrid[3][column] = battleAug.getBattleLoreCopy(5);
 		
-		licenseGrid[4][column] = eqee.getEQEECopy(10);
+		licenseGrid[4][column] = eqee.getEQEE(10);
 		
 		licenseGrid[5][column] = magAug.getMagickLoreCopy(7);
 		
@@ -512,7 +512,7 @@ public class WhiteMage extends LicenseBoard {
 		
 		licenseGrid[11][column] = magAug.getMagickLoreCopy(25);
 		
-		licenseGrid[12][column] = eqee.getEQEECopy(9);
+		licenseGrid[12][column] = eqee.getEQEE(9);
 		
 		licenseGrid[13][column] = eqee.getEQEECopy(0);
 		licenseGrid[14][column] = eqee.getEQEECopy(0);
@@ -555,12 +555,12 @@ public class WhiteMage extends LicenseBoard {
 		licenseGrid[5][column] = eqee.getEQEECopy(0);
 		licenseGrid[6][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[7][column] = eqee.getEQEECopy(12);
+		licenseGrid[7][column] = eqee.getEQEE(12);
 		
 		licenseGrid[8][column] = eqee.getEQEECopy(0);
 		licenseGrid[9][column] = eqee.getEQEECopy(0);
 		
-		licenseGrid[10][column] = eqee.getEQEECopy(5);
+		licenseGrid[10][column] = eqee.getEQEE(5);
 
 		licenseGrid[11][column] = eqee.getEQEECopy(0);
 		licenseGrid[12][column] = eqee.getEQEECopy(0);
