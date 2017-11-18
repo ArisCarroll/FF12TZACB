@@ -12,28 +12,18 @@ import dmf.tzacb.model.licenses.equipment.Armor;
 import dmf.tzacb.model.licenses.equipment.Weapons1;
 import dmf.tzacb.model.licenses.equipment.Weapons2;
 import dmf.tzacb.model.licenses.equipment.Weapons3;
-import dmf.tzacb.model.licenses.espersquickessentials.EspersQuickEssentials;
+import dmf.tzacb.model.licenses.espersquickessentials.EQEE;
+import dmf.tzacb.model.licenses.magick.ArcaneMagick;
+import dmf.tzacb.model.licenses.magick.BlackMagick;
+import dmf.tzacb.model.licenses.magick.GreenMagick;
+import dmf.tzacb.model.licenses.magick.TimeMagick;
+import dmf.tzacb.model.licenses.magick.WhiteMagick;
+import dmf.tzacb.model.licenses.technicks.Technicks;
 
 public class TZACB_Main {
 	
 	// Characters
 	private static PlayerCharacter[] characters; 
-	
-	// Augments
-	private BattleAugments battleAugments = new BattleAugments();
-	private HealthAugments healthAugments = new HealthAugments();
-	private ItemAugments   itemAugments   = new ItemAugments();
-	private MagickAugments magickAugments = new MagickAugments();
-	
-	// Equipment
-	private Accessories    accessories    = new Accessories();
-	private Armor		   armor		  = new Armor();
-	private Weapons1	   weapons1		  = new Weapons1();
-	private Weapons2	   weapons2		  = new Weapons2();
-	private Weapons3	   weapons3		  = new Weapons3();
-	
-	// Espers Quickenings Essentials and Empty
-	private EspersQuickEssentials eqee	  = new EspersQuickEssentials();
 	
 	public static void main(String[] args) {
         
@@ -46,8 +36,9 @@ public class TZACB_Main {
         characters[4] = new PlayerCharacter("Ashe");
         characters[5] = new PlayerCharacter("Penelo");
         
-        JFrame window = new MainGui();
-        window.show();
+        JFrame window = new MainGui(characters);
+        window.setSize(1000, 800);
+        window.setVisible(true);
     }
 
 }

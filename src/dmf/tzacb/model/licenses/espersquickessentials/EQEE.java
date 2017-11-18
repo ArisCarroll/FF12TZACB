@@ -3,11 +3,11 @@ package dmf.tzacb.model.licenses.espersquickessentials;
 import dmf.tzacb.model.licenses.License;
 import dmf.tzacb.model.licenses.LicenseType;
 
-public class EspersQuickEssentials {
+public class EQEE {
 	
 	private License[] eqeeLicenses;
 	
-	public EspersQuickEssentials () {
+	public EQEE () {
 		
 		eqeeLicenses = new License[20];
 		

@@ -11,7 +11,7 @@ import dmf.tzacb.model.licenses.equipment.Armor;
 import dmf.tzacb.model.licenses.equipment.Weapons1;
 import dmf.tzacb.model.licenses.equipment.Weapons2;
 import dmf.tzacb.model.licenses.equipment.Weapons3;
-import dmf.tzacb.model.licenses.espersquickessentials.EspersQuickEssentials;
+import dmf.tzacb.model.licenses.espersquickessentials.EQEE;
 import dmf.tzacb.model.licenses.magick.ArcaneMagick;
 import dmf.tzacb.model.licenses.magick.BlackMagick;
 import dmf.tzacb.model.licenses.magick.GreenMagick;
@@ -21,7 +21,7 @@ import dmf.tzacb.model.licenses.technicks.Technicks;
 
 public class Archer extends LicenseBoard {
 
-	public Archer(PlayerCharacter holder, Accessories accessories, ArcaneMagick arcm, Armor armor, BattleAugments battleAug, BlackMagick blm, EspersQuickEssentials eqee, 
+	public Archer(PlayerCharacter holder, Accessories accessories, ArcaneMagick arcm, Armor armor, BattleAugments battleAug, BlackMagick blm, EQEE eqee, 
 					GreenMagick grm,HealthAugments healthAug, ItemAugments itemAug, MagickAugments magAug, Technicks technicks, TimeMagick tim, Weapons1 weapons1, Weapons2 weapons2,
 					Weapons3 weapons3, WhiteMagick whm ) {
 		

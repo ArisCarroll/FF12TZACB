@@ -9,13 +9,13 @@ import dmf.tzacb.model.licenses.augments.MagickAugments;
 import dmf.tzacb.model.licenses.equipment.Accessories;
 import dmf.tzacb.model.licenses.equipment.Armor;
 import dmf.tzacb.model.licenses.equipment.Weapons1;
-import dmf.tzacb.model.licenses.espersquickessentials.EspersQuickEssentials;
+import dmf.tzacb.model.licenses.espersquickessentials.EQEE;
 import dmf.tzacb.model.licenses.magick.WhiteMagick;
 import dmf.tzacb.model.licenses.technicks.Technicks;
 
 public class Knight extends LicenseBoard {
 
-	public Knight(PlayerCharacter holder, Accessories accessories, Armor armor, BattleAugments battleAug, EspersQuickEssentials eqee, 
+	public Knight(PlayerCharacter holder, Accessories accessories, Armor armor, BattleAugments battleAug, EQEE eqee, 
 					HealthAugments healthAug, ItemAugments itemAug, MagickAugments magAug, Technicks technicks, Weapons1 weapons1, WhiteMagick whm ) {
 		
 		setBoardHolder(holder);
