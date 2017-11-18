@@ -1,5 +1,6 @@
 package dmf.tzacb.logic.main;
 
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
 import dmf.tzacb.gui.MainGui;
@@ -29,15 +30,16 @@ public class TZACB_Main {
         
 		characters = new PlayerCharacter[6];
         
-        characters[0] = new PlayerCharacter("Vaan");
-        characters[1] = new PlayerCharacter("Balthier");
-        characters[2] = new PlayerCharacter("Fran");
-        characters[3] = new PlayerCharacter("Basch");
-        characters[4] = new PlayerCharacter("Ashe");
-        characters[5] = new PlayerCharacter("Penelo");
+        characters[0] = new PlayerCharacter("Vaan", new ImageIcon(MainGui.class.getResource("/dmf/tzacb/assets/icons/licenses/emptyWhite.PNG")));
+        characters[0] = new PlayerCharacter("Vaan", new ImageIcon(MainGui.class.getResource("/dmf/tzacb/assets/icons/characters/vaan.PNG")));
+        characters[1] = new PlayerCharacter("Balthier", new ImageIcon(MainGui.class.getResource("/dmf/tzacb/assets/icons/characters/balthier.PNG")));
+        characters[2] = new PlayerCharacter("Fran", new ImageIcon(MainGui.class.getResource("/dmf/tzacb/assets/icons/characters/fran.PNG")));
+        characters[3] = new PlayerCharacter("Basch", new ImageIcon(MainGui.class.getResource("/dmf/tzacb/assets/icons/characters/basch.PNG")));
+        characters[4] = new PlayerCharacter("Ashe", new ImageIcon(MainGui.class.getResource("/dmf/tzacb/assets/icons/characters/ashe.PNG")));
+        characters[5] = new PlayerCharacter("Penelo", new ImageIcon(MainGui.class.getResource("/dmf/tzacb/assets/icons/characters/penelo.PNG")));
         
         JFrame window = new MainGui(characters);
-        window.setSize(1000, 800);
+        window.setSize(1200, 960);
         window.setVisible(true);
     }
 

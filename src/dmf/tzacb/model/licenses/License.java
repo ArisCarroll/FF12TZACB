@@ -4,17 +4,25 @@ package dmf.tzacb.model.licenses;
 
 import java.io.Serializable;
 
-public class License implements Serializable {
-	
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
+import javax.swing.ImageIcon;
+
+import dmf.tzacb.gui.MainGui;
+
+public class License {
+
 	private String licenseName;
 	private int apCost;
 	private LicenseType licenseType;
 	private boolean aquired = false;
 	private String licenseDescription;
+	
+	// White Icons
+	private ImageIcon imgNotW = null;
+	private ImageIcon imgYesW = null;
+	
+	// Brown Icons
+	private ImageIcon imgNotB = null;
+	private ImageIcon imgYesB = null;	
 	
 	
 	public License(String name, int cost, LicenseType type, String description) {

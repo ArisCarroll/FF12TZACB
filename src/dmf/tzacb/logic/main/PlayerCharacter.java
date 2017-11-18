@@ -1,5 +1,7 @@
 package dmf.tzacb.logic.main;
 
+import javax.swing.ImageIcon;
+
 import dmf.tzacb.model.licenses.LicenseBoard;
 import dmf.tzacb.model.licenses.augments.BattleAugments;
 import dmf.tzacb.model.licenses.augments.HealthAugments;
@@ -45,35 +47,58 @@ public class PlayerCharacter {
 	// Espers Quickenings Essentials and Empty
 	private EQEE eqee;
 	
-	String name;
-	int noOfBoards = 0;
+	private String name;
+	private ImageIcon icon;
 	
-	LicenseBoard board1 = null;
-	LicenseBoard board2 = null;
+	private int noOfBoards = 0;
 	
-	int totalBoardCost   = 0;
-	int currentBoardCost = 0;
+	private LicenseBoard board1 = null;
+	private LicenseBoard board2 = null;
 	
-	public PlayerCharacter(String newName) {
+	private int totalBoardCost   = 0;
+	private int currentBoardCost = 0;
+	
+	public PlayerCharacter(String newName, ImageIcon newIcon) {
 		name = newName;
+		icon = newIcon;
 	}
 	
 	public String getName(){
 		return name;
 	}
+	
+	public ImageIcon getIcon(){
+		return icon;
+	}
 
-	public String addBoard(LicenseBoard newBoard) {
+	public String getBoardName(boolean board){
+		if(!board) {
+			return board1.getBoardName();
+		} 
+		else {
+			return board2.getBoardName();
+		}
 		
-		if(board1 == null) {
+	}
+	
+	public LicenseBoard getBoard(boolean board){
+		if(!board) {
+			return board1;
+		} 
+		else {
+			return board2;
+		}
+	}
+	
+	public String addBoard(LicenseBoard newBoard, boolean boardOne) {
+		
+		if(!boardOne) {
 			board1 = newBoard;
 			return "License Board 1 Selected.";
 		}
-		else if (board2 == null) {
+		else {
 			board2 = newBoard;
 			return "License Board 2 Selected.";
-		}
-		else {
-			return "Both Boards already selected, delete a Board to select new one.";
 		}
 	}
 	
