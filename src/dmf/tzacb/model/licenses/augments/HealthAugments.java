@@ -1,5 +1,8 @@
 package dmf.tzacb.model.licenses.augments;
 
+import javax.swing.ImageIcon;
+
+import dmf.tzacb.gui.MainGui;
 import dmf.tzacb.model.licenses.License;
 import dmf.tzacb.model.licenses.LicenseType;
 
@@ -12,7 +15,7 @@ public class HealthAugments {
 		heauLicenses = new License[12];
 		
 		// Espers Quckenings Essentials and Empty
-		heauLicenses[0]   = new License("HP+  30",  20, LicenseType.Augment, "Increases HP by  30.");
+		heauLicenses[0]   = new License("HP+  30",  20, LicenseType.Augment, "Increases HP by  30.", new ImageIcon(MainGui.class.getResource("/dmf/tzacb/assets/icons/licenses/emptyWhite.PNG")),new ImageIcon(MainGui.class.getResource("/dmf/tzacb/assets/icons/licenses/emptyWhite.PNG")),new ImageIcon(MainGui.class.getResource("/dmf/tzacb/assets/icons/licenses/emptyWhite.PNG")),new ImageIcon(MainGui.class.getResource("/dmf/tzacb/assets/icons/licenses/emptyWhite.PNG")));
 		heauLicenses[1]   = new License("HP+  70",  30, LicenseType.Augment, "Increases HP by  70.");
 		heauLicenses[2]   = new License("HP+ 110",  40, LicenseType.Augment, "Increases HP by 110.");
 		heauLicenses[3]   = new License("HP+ 150",  55, LicenseType.Augment, "Increases HP by 150.");

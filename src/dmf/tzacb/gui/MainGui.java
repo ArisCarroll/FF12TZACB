@@ -97,8 +97,8 @@ public class MainGui extends JFrame{
 	
 	// Empty Icons
 	private ImageIcon blockedW		= new ImageIcon(MainGui.class.getResource("/dmf/tzacb/assets/icons/licenses/emptyWhite.PNG"));
-	private ImageIcon blockedB 		= new ImageIcon("/dmf/tzacb/assets/icons/licenses/emptyBrown.PNG");
-	private ImageIcon background	= new ImageIcon("/dmf/tzacb/assets/icons/licenses/background.PNG");
+	private ImageIcon blockedB 		= new ImageIcon(MainGui.class.getResource("/dmf/tzacb/assets/icons/licenses/emptyBrown.PNG"));
+	private ImageIcon background	= new ImageIcon(MainGui.class.getResource("/dmf/tzacb/assets/icons/licenses/background.PNG"));
 	
 	
 	
@@ -265,11 +265,18 @@ public class MainGui extends JFrame{
 	            				for(int j = 0; j < 19; j++) {
 	            					
 	            					JLabel tempLabel = new JLabel();
+	            					JButton tempButton = new JButton();
+	            					
 	            					scaleImg = blockedW.getImage();
 	            					newImg = scaleImg.getScaledInstance(30, 30, Image.SCALE_SMOOTH);
-	            					tempLabel.setIcon(new ImageIcon(newImg));
+	            					tempButton.setIcon(new ImageIcon(newImg));
 	            					
-	            					panelBoard1[0].add(tempLabel);
+	            					tempButton.addActionListener(new ActionListener() {
+	            						public void actionPerformed(ActionEvent e) {
+	            							changeLicenseState(tempButton);
+	            						}
+	            					});
+	            					panelBoard1[0].add(tempButton);
 	            				}
 	            			}
 	            		}
@@ -290,6 +297,10 @@ public class MainGui extends JFrame{
 	                     }
 	        System.out.println(chara);
 	        updateGUI();
+	}
+	
+	private void changeLicenseState(JButton license) {
+		
 	}
 	
 	private void updateGUI(){
