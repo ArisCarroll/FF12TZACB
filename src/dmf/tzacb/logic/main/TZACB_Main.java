@@ -30,7 +30,6 @@ public class TZACB_Main {
         
 		characters = new PlayerCharacter[6];
         
-        characters[0] = new PlayerCharacter("Vaan", new ImageIcon(MainGui.class.getResource("/dmf/tzacb/assets/icons/licenses/emptyWhite.PNG")));
         characters[0] = new PlayerCharacter("Vaan", new ImageIcon(MainGui.class.getResource("/dmf/tzacb/assets/icons/characters/vaan.PNG")));
         characters[1] = new PlayerCharacter("Balthier", new ImageIcon(MainGui.class.getResource("/dmf/tzacb/assets/icons/characters/balthier.PNG")));
         characters[2] = new PlayerCharacter("Fran", new ImageIcon(MainGui.class.getResource("/dmf/tzacb/assets/icons/characters/fran.PNG")));
