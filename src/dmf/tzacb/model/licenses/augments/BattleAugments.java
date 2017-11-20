@@ -187,8 +187,8 @@ public class BattleAugments {
 		notB[24] = new ImageIcon(MainGui.class.getResource("/dmf/tzacb/assets/icons/licenses/battleAug/nLastStandB.PNG"));
 		yesB[24] = new ImageIcon(MainGui.class.getResource("/dmf/tzacb/assets/icons/licenses/battleAug/yLastStandB.PNG"));
 		
-		notW[25] = new ImageIcon(MainGui.class.getResource("/dmf/tzacb/assets/icons/licenses/battleAug/nBrawlerW.PNG"));
-		yesW[25] = new ImageIcon(MainGui.class.getResource("/dmf/tzacb/assets/icons/licenses/battleAug/yBrawlerW.PNG"));
+		notW[25] = new ImageIcon(MainGui.class.getResource("/dmf/tzacb/assets/icons/licenses/battleAug/nBrawlerB.PNG"));
+		yesW[25] = new ImageIcon(MainGui.class.getResource("/dmf/tzacb/assets/icons/licenses/battleAug/yBrawlerB.PNG"));
 		notB[25] = new ImageIcon(MainGui.class.getResource("/dmf/tzacb/assets/icons/licenses/battleAug/nBrawlerB.PNG"));
 		yesB[25] = new ImageIcon(MainGui.class.getResource("/dmf/tzacb/assets/icons/licenses/battleAug/yBrawlerB.PNG"));
 	}
